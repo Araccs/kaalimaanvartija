@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 9fb1bf213f061fc438a2abd049bfa91f, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d7519f10bf722e94c9aac49fd6db2f00, type: 3}
+  - {fileID: 21300000, guid: 17381e50943d6fb4387b3ffb03fcf31a, type: 3}
+  - {fileID: 21300000, guid: f4476380045ad514695f8e3b1ae02064, type: 3}
+  - {fileID: 21300000, guid: 72ba2a118e5f52749a3594662f759246, type: 3}
+  - {fileID: 21300000, guid: d588ccf1648bff14080344018fd29c2f, type: 3}
+  - {fileID: 21300000, guid: 2de19f1210a978e419fe1058726c66f0, type: 3}
+  - {fileID: 21300000, guid: 126fe7a2d1fbc074bb46ccfba8c64050, type: 3}
+  - {fileID: 21300000, guid: 3e7691e200890b149930a5dc06ebc508, type: 3}
+  - {fileID: 21300000, guid: 259be90345402274ea803d6b4c83b9d7, type: 3}
+  - {fileID: 21300000, guid: 7b8d11848f1dbd246a25d618c1926bf4, type: 3}
+  - {fileID: 21300000, guid: 054c1c354d111314db92b7d2c301d1fe, type: 3}
+  - {fileID: 908695367317944549, guid: ef2dead5d779a524d8077cf6fb392026, type: 3}
+  - {fileID: -1368899909649150793, guid: ef2dead5d779a524d8077cf6fb392026, type: 3}
+  - {fileID: -2271862466029872859, guid: ef2dead5d779a524d8077cf6fb392026, type: 3}
+  - {fileID: -1395561467010985548, guid: ef2dead5d779a524d8077cf6fb392026, type: 3}
+  - {fileID: 21300000, guid: eb850f3650ff90341a31ce1d0aaebcda, type: 3}
+  - {fileID: 21300000, guid: 0cdfe53729d845f408eb9e9911119b68, type: 3}
+  - {fileID: 21300000, guid: fc18a05784102bf40aba29c378c264ae, type: 3}
+  - {fileID: 21300000, guid: fc304e69d0f839440aeb1991e5299e52, type: 3}
+  - {fileID: 21300000, guid: 3f15259b407a52b4b8ee521249ce90a3, type: 3}
+  - {fileID: 21300000, guid: 804275ebe0834644a85ec452cd7fe170, type: 3}
+  - {fileID: 21300000, guid: d1b3bf5d66d054448b14706fc66e642d, type: 3}
+  - {fileID: 21300000, guid: 42c2459d27d6137408911b6e36b47327, type: 3}
+  - {fileID: 21300000, guid: 6aad2b1ee415ff6469171e6ce7e12a88, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - "vasensein\xE4_v2"
+  - kukkapenkki_right
+  - "Takasein\xE4"
+  - Tomaatti
+  - Takakulma_oikea
+  - Kaali
+  - pulu1
+  - Ruoho1
+  - kukkapenkki_left
+  - Jatkopala_vasen
+  - "vasen_sein\xE4"
+  - tamperetalo2_2
+  - tamperetalo2_3
+  - tamperetalo2_0
+  - tamperetalo2_1
+  - "oikeasein\xE4_v2"
+  - Jatkopala
+  - kukkapenkki_middle
+  - Kulmapala_vasen
+  - pelihahmoV2.2
+  - Kulmapala_v2
+  - Takakulma_vasen
+  - Betoni1
+  - Ikkuna2
+  m_RenderDataMap: {}
+  m_Tag: SpriteAtlas
+  m_IsVariant: 0
