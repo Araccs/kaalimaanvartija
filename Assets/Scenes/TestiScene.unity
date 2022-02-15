@@ -220,7 +220,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!156049354 &163868495
 Grid:
@@ -252,7 +252,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &339145271
+=======
+--- !u!1 &327822123
+>>>>>>> df6b89a90b545494cfa8f5e719c33abc3c68bed6
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -260,15 +264,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 339145273}
   - component: {fileID: 339145272}
   m_Layer: 0
   m_Name: Kaali (5)
+=======
+  - component: {fileID: 327822124}
+  m_Layer: 0
+  m_Name: Point2
+>>>>>>> df6b89a90b545494cfa8f5e719c33abc3c68bed6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!212 &339145272
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -321,11 +332,15 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &339145273
+=======
+--- !u!4 &327822124
+>>>>>>> df6b89a90b545494cfa8f5e719c33abc3c68bed6
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 339145271}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.33, y: 2.48, z: 0}
@@ -803,6 +818,16 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+=======
+  m_GameObject: {fileID: 327822123}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.74, y: -2.62, z: -0.36769992}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> df6b89a90b545494cfa8f5e719c33abc3c68bed6
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1637,7 +1662,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1140482155
 Transform:
@@ -1953,7 +1978,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1321216922
 Transform:
@@ -3683,7 +3708,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+<<<<<<< HEAD
 --- !u!1 &1342712716
+=======
+--- !u!1 &1600830565
+>>>>>>> df6b89a90b545494cfa8f5e719c33abc3c68bed6
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3691,15 +3720,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 1342712718}
   - component: {fileID: 1342712717}
   m_Layer: 0
   m_Name: Kaali (2)
+=======
+  - component: {fileID: 1600830566}
+  m_Layer: 0
+  m_Name: Point3
+>>>>>>> df6b89a90b545494cfa8f5e719c33abc3c68bed6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!212 &1342712717
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3752,11 +3788,15 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1342712718
+=======
+--- !u!4 &1600830566
+>>>>>>> df6b89a90b545494cfa8f5e719c33abc3c68bed6
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1342712716}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.7399998, y: 2.6200001, z: 0}
@@ -3766,6 +3806,17 @@ Transform:
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1389629704
+=======
+  m_GameObject: {fileID: 1600830565}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.06, y: -2.6800003, z: -0.36769992}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1730057848
+>>>>>>> df6b89a90b545494cfa8f5e719c33abc3c68bed6
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3773,15 +3824,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 1389629706}
   - component: {fileID: 1389629705}
   m_Layer: 0
   m_Name: Kaali (15)
+=======
+  - component: {fileID: 1730057849}
+  m_Layer: 0
+  m_Name: Point4
+>>>>>>> df6b89a90b545494cfa8f5e719c33abc3c68bed6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!212 &1389629705
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3834,11 +3892,15 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1389629706
+=======
+--- !u!4 &1730057849
+>>>>>>> df6b89a90b545494cfa8f5e719c33abc3c68bed6
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1389629704}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.74, y: 0.66, z: 0}
@@ -4092,6 +4154,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 17
+=======
+  m_GameObject: {fileID: 1730057848}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.3199997, y: 1.3600001, z: -0.36769992}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+>>>>>>> df6b89a90b545494cfa8f5e719c33abc3c68bed6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1750471732
 GameObject:
@@ -4110,7 +4181,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1750471733
 Transform:
@@ -7160,6 +7231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1768896208}
   - component: {fileID: 1768896207}
+  - component: {fileID: 1768896209}
   m_Layer: 0
   m_Name: pulu1
   m_TagString: Untagged
@@ -7226,13 +7298,35 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1768896206}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.39, y: 3.42, z: 0}
+  m_LocalPosition: {x: 9.42, y: 3.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1769226819
+=======
+--- !u!114 &1768896209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768896206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aebed82e1069cad449820a198b0571fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {fileID: 1854324136}
+  - {fileID: 327822124}
+  - {fileID: 1600830566}
+  - {fileID: 1730057849}
+  speed: 1
+--- !u!1 &1854324135
+>>>>>>> df6b89a90b545494cfa8f5e719c33abc3c68bed6
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7240,15 +7334,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 1769226821}
   - component: {fileID: 1769226820}
   m_Layer: 0
   m_Name: pulu1 (1)
+=======
+  - component: {fileID: 1854324136}
+  m_Layer: 0
+  m_Name: Point1
+>>>>>>> df6b89a90b545494cfa8f5e719c33abc3c68bed6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!212 &1769226820
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7301,11 +7402,15 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1769226821
+=======
+--- !u!4 &1854324136
+>>>>>>> df6b89a90b545494cfa8f5e719c33abc3c68bed6
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1769226819}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.63, y: 1.07, z: 0}
@@ -7559,4 +7664,13 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 19
+=======
+  m_GameObject: {fileID: 1854324135}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.66, y: 2.34, z: -0.36769992}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+>>>>>>> df6b89a90b545494cfa8f5e719c33abc3c68bed6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
