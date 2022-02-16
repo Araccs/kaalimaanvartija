@@ -68,6 +68,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 0cdfe53729d845f408eb9e9911119b68, type: 3}
   - {fileID: 21300000, guid: fc18a05784102bf40aba29c378c264ae, type: 3}
   - {fileID: 21300000, guid: fc304e69d0f839440aeb1991e5299e52, type: 3}
+  - {fileID: 21300000, guid: ccfb01f96e2aa0647a78ea7f58a7dc79, type: 3}
   - {fileID: 21300000, guid: 3f15259b407a52b4b8ee521249ce90a3, type: 3}
   - {fileID: 21300000, guid: 804275ebe0834644a85ec452cd7fe170, type: 3}
   - {fileID: 21300000, guid: d1b3bf5d66d054448b14706fc66e642d, type: 3}
@@ -93,6 +94,7 @@ SpriteAtlas:
   - Jatkopala
   - kukkapenkki_middle
   - Kulmapala_vasen
+  - Pelihahmo 3.1
   - pelihahmoV2.2
   - Kulmapala_v2
   - Takakulma_vasen
