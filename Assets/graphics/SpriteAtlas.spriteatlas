@@ -50,15 +50,20 @@ SpriteAtlas:
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: d7519f10bf722e94c9aac49fd6db2f00, type: 3}
+  - {fileID: 21300000, guid: 36a602406de2db64281291205df78fce, type: 3}
   - {fileID: 21300000, guid: 17381e50943d6fb4387b3ffb03fcf31a, type: 3}
   - {fileID: 21300000, guid: f4476380045ad514695f8e3b1ae02064, type: 3}
   - {fileID: 21300000, guid: 72ba2a118e5f52749a3594662f759246, type: 3}
+  - {fileID: 21300000, guid: 6974f2c1399dee84aa8f23e3eb86de4c, type: 3}
   - {fileID: 21300000, guid: d588ccf1648bff14080344018fd29c2f, type: 3}
   - {fileID: 21300000, guid: 2de19f1210a978e419fe1058726c66f0, type: 3}
+  - {fileID: 21300000, guid: 0a95a6421dbc20c4da1c6079bc1778b0, type: 3}
   - {fileID: 21300000, guid: 126fe7a2d1fbc074bb46ccfba8c64050, type: 3}
   - {fileID: 21300000, guid: 3e7691e200890b149930a5dc06ebc508, type: 3}
   - {fileID: 21300000, guid: 259be90345402274ea803d6b4c83b9d7, type: 3}
+  - {fileID: 21300000, guid: 285dec73a2ee78a4da316ab2cfb9aa1e, type: 3}
   - {fileID: 21300000, guid: 7b8d11848f1dbd246a25d618c1926bf4, type: 3}
+  - {fileID: 21300000, guid: b9b28f15673719149a016b34c06b1c41, type: 3}
   - {fileID: 21300000, guid: 054c1c354d111314db92b7d2c301d1fe, type: 3}
   - {fileID: 908695367317944549, guid: ef2dead5d779a524d8077cf6fb392026, type: 3}
   - {fileID: -1368899909649150793, guid: ef2dead5d779a524d8077cf6fb392026, type: 3}
@@ -68,23 +73,28 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 0cdfe53729d845f408eb9e9911119b68, type: 3}
   - {fileID: 21300000, guid: fc18a05784102bf40aba29c378c264ae, type: 3}
   - {fileID: 21300000, guid: fc304e69d0f839440aeb1991e5299e52, type: 3}
-  - {fileID: 21300000, guid: ccfb01f96e2aa0647a78ea7f58a7dc79, type: 3}
-  - {fileID: 21300000, guid: 3f15259b407a52b4b8ee521249ce90a3, type: 3}
+  - {fileID: 21300000, guid: 3823709b2165f304f8855334386fc5db, type: 3}
   - {fileID: 21300000, guid: 804275ebe0834644a85ec452cd7fe170, type: 3}
   - {fileID: 21300000, guid: d1b3bf5d66d054448b14706fc66e642d, type: 3}
   - {fileID: 21300000, guid: 42c2459d27d6137408911b6e36b47327, type: 3}
   - {fileID: 21300000, guid: 6aad2b1ee415ff6469171e6ce7e12a88, type: 3}
+  - {fileID: 21300000, guid: 05f6d4df4be18b842838e946f1ccbcc2, type: 3}
   m_PackedSpriteNamesToIndex:
   - "vasensein\xE4_v2"
+  - sivuprofiili_skaalattu_oikea
   - kukkapenkki_right
   - "Takasein\xE4"
   - Tomaatti
+  - sivuprofiili_skaalattu
   - Takakulma_oikea
   - Kaali
+  - pulu_flying_03
   - pulu1
   - Ruoho1
   - kukkapenkki_left
+  - pulu_idle_01
   - Jatkopala_vasen
+  - Pelihahmo 3.2
   - "vasen_sein\xE4"
   - tamperetalo2_2
   - tamperetalo2_3
@@ -94,12 +104,12 @@ SpriteAtlas:
   - Jatkopala
   - kukkapenkki_middle
   - Kulmapala_vasen
-  - Pelihahmo 3.1
-  - pelihahmoV2.2
+  - pulu_flying_01
   - Kulmapala_v2
   - Takakulma_vasen
   - Betoni1
   - Ikkuna2
+  - button_01
   m_RenderDataMap: {}
   m_Tag: SpriteAtlas
   m_IsVariant: 0
