@@ -10,6 +10,7 @@ namespace kaalimaanvartija
         public Transform[] points;
         int current;
         public float speed;
+        public bool feared = false;
         // private Vector2 startingPosition;
         void Start()
         {
@@ -19,12 +20,18 @@ namespace kaalimaanvartija
 
         void Update()
         {
-            if (transform.position != points[current].position)
-            {
-                transform.position = Vector3.MoveTowards(transform.position, points[current].position, speed * Time.deltaTime);
+            if (feared != true) {
+                
+                {
+                    transform.position = Vector3.MoveTowards(transform.position, points[0].position, speed * Time.deltaTime);
+                }
+               
             }
-            else
-                current = (current + 1) % points.Length;
+             else 
+                {
+                transform.position = Vector3.MoveTowards(transform.position, points[1].position, speed * Time.deltaTime);
+                }
+            
         }
     }
 }

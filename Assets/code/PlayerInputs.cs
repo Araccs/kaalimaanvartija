@@ -8,7 +8,7 @@ namespace kaalimaanvartija
 	public class PlayerInputs : MonoBehaviour
 	{
 	
-
+		
 		[SerializeField]
 		private float velocity = 1;
 		private Vector2 moveInput;
