@@ -9,22 +9,32 @@ namespace kaalimaanvartija
     {
         public Transform[] points;
         public float speed;
-        public bool fear;
-        
-        
-        void Awake() 
-        {
-            
-        }
+        private Transform player;
+        private float dist;
+        public float howclose;
+        private Vector2 birdPosition;
 
+        public bool fear = false;
+        
         void Start()
         {
-           fear = feared.GetComponent<BirdFear>();
-            
+           
+            player = GameObject.FindGameObjectWithTag("Player").transform;
         }
 
         void Update()
         {
+            birdPosition = transform.position;
+
+            dist = Vector2.Distance(birdPosition, player.position);
+            print("Distance to other: " + birdPosition);
+
+            if(dist <= howclose)
+            {
+                Debug.Log("NYTTT");
+                fear = true;
+            }  
+
             if (fear != true) {
                 
                 {
