@@ -78,6 +78,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: d1b3bf5d66d054448b14706fc66e642d, type: 3}
   - {fileID: 21300000, guid: 42c2459d27d6137408911b6e36b47327, type: 3}
   - {fileID: 21300000, guid: 6aad2b1ee415ff6469171e6ce7e12a88, type: 3}
+  - {fileID: 21300000, guid: d785ea7f11d5ab244b4813a75ab0ba5d, type: 3}
   - {fileID: 21300000, guid: 05f6d4df4be18b842838e946f1ccbcc2, type: 3}
   m_PackedSpriteNamesToIndex:
   - "vasensein\xE4_v2"
@@ -109,6 +110,7 @@ SpriteAtlas:
   - Takakulma_vasen
   - Betoni1
   - Ikkuna2
+  - clock
   - button_01
   m_RenderDataMap: {}
   m_Tag: SpriteAtlas
