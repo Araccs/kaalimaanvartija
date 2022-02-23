@@ -10,7 +10,7 @@ namespace kaalimaanvartija
         private float dist;
         public float howclose;
         private Vector2 birdPosition;
-        
+        public bool feared = true;
         
 
 
@@ -26,13 +26,13 @@ namespace kaalimaanvartija
             
             birdPosition = transform.position;
 
-            //dist = Vector2.Distance(birdPosition, playPosition);
-            //print("Distance to other: " + dist);
+            dist = Vector2.Distance(birdPosition, player.position);
+            print("Distance to other: " + dist);
 
-            // if(dist <= howclose || dist >= howclose)
-            // {
-            //     Debug.Log("NYTTT");
-            // }
+            if(dist <= howclose)
+            {
+                Debug.Log("NYTTT");
+            }  
         }
     }
 }

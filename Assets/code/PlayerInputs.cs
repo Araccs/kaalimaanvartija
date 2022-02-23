@@ -8,9 +8,11 @@ namespace kaalimaanvartija
 	public class PlayerInputs : MonoBehaviour
 	{
 	
-		
+
 		[SerializeField]
 		private float velocity = 1;
+
+		
 		private Vector2 moveInput;
 
 		
@@ -25,6 +27,7 @@ namespace kaalimaanvartija
 
 		private void OnMove(InputAction.CallbackContext callbackContext)
 		{
+		
 			moveInput = callbackContext.ReadValue<Vector2>();
 			
 		}
