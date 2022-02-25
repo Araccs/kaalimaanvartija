@@ -9,6 +9,7 @@ namespace kaalimaanvartija
 
         private NewPlayerInputs playerInput;
         private Rigidbody2D rb;
+        public Animator animator;
 
         [SerializeField] private float speed = 10f;
 
@@ -17,6 +18,7 @@ namespace kaalimaanvartija
         {
             playerInput = new NewPlayerInputs();
             rb = GetComponent<Rigidbody2D>();
+            animator= GetComponent<Animator>();
         }
 
         private void OnEnable()
@@ -40,6 +42,11 @@ namespace kaalimaanvartija
         {
             Vector2 moveInput = playerInput.Movement.Move.ReadValue<Vector2>();
             rb.velocity = moveInput * speed;
+            animator.SetFloat("Horizontal", moveInput.x);
+            animator.SetFloat("Vertical", moveInput.y);
+            animator.SetFloat("Speed", moveInput.sqrMagnitude);
+
+
         }
     }
 }
