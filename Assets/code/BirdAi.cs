@@ -14,8 +14,11 @@ namespace kaalimaanvartija
         public float howclose;
         private Vector2 birdPosition;
 
-        public bool fear = false;
-        
+        private bool fear = false;
+
+        [SerializeField]
+        private float timer;
+
         void Start()
         {
            
@@ -29,23 +32,32 @@ namespace kaalimaanvartija
             dist = Vector2.Distance(birdPosition, player.position);
             print("Distance to other: " + birdPosition);
 
-            if(dist <= howclose)
-            {
-                Debug.Log("NYTTT");
-                fear = true;
-            }  
+            if (timer > 0)
+                {
+                timer -= Time.deltaTime;
+                }
+                    if (timer <= 1)
+                    {
+                        Debug.Log("joooooo");
+                        if(dist <= howclose)
+                        {
+                        fear = true;
+                        }  
 
-            if (fear != true) {
+                        if (fear != true) {
                 
-                {
-                    transform.position = Vector3.MoveTowards(transform.position, points[0].position, speed * Time.deltaTime);
-                }
+                        {
+                        transform.position = Vector3.MoveTowards(transform.position, points[0].position, speed * Time.deltaTime);
+                        }
                
-            }
-             else 
-                {
-                transform.position = Vector3.MoveTowards(transform.position, points[1].position, speed * Time.deltaTime);
-                }
+                        }
+                        else 
+                        {
+                        transform.position = Vector3.MoveTowards(transform.position, points[1].position, speed * Time.deltaTime);
+                        }
+                    }
+                
+                
             
         }
     }
