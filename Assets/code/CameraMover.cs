@@ -4,13 +4,15 @@ using UnityEngine;
 
 namespace kaalimaanvartija
 {
+
     public class CameraMover : MonoBehaviour
     {
-       private int number = 2;
+       private int number = 4;
+       [SerializeField] private float speed = 1.0f;
 
         void Update()
         {
-            transform.position = new Vector3(Mathf.PingPong((Time.time * 0.2f), number),0,0);
+            transform.position = new Vector3(Mathf.PingPong((Time.time * speed), number),0,0);
         }
 
     }
