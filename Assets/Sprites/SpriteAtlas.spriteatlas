@@ -58,6 +58,7 @@ SpriteAtlas:
   - {fileID: -4590976415622017228, guid: 2c86d650a86cec34186131aa85e81f84, type: 3}
   - {fileID: -4625780681698435343, guid: 2c86d650a86cec34186131aa85e81f84, type: 3}
   - {fileID: 7884422695674339925, guid: 2c86d650a86cec34186131aa85e81f84, type: 3}
+  - {fileID: 21300000, guid: 5de13a50f8be36c4d993d758dc412093, type: 3}
   - {fileID: 21300000, guid: c0b09d50de499dd4a88f680561c2ba5a, type: 3}
   - {fileID: 21300000, guid: 17381e50943d6fb4387b3ffb03fcf31a, type: 3}
   - {fileID: 21300000, guid: f4476380045ad514695f8e3b1ae02064, type: 3}
@@ -99,6 +100,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: eb850f3650ff90341a31ce1d0aaebcda, type: 3}
   - {fileID: 21300000, guid: 0cdfe53729d845f408eb9e9911119b68, type: 3}
   - {fileID: 21300000, guid: fc18a05784102bf40aba29c378c264ae, type: 3}
+  - {fileID: 21300000, guid: 156afef7244f28241a823ab558d79346, type: 3}
   - {fileID: 21300000, guid: bc797eb8dde7065468de26a69b3998f4, type: 3}
   - {fileID: 21300000, guid: e373d539c9620854e84102648bc97975, type: 3}
   - {fileID: 21300000, guid: 6d69b06992698a94db0952a8f664403d, type: 3}
@@ -133,6 +135,7 @@ SpriteAtlas:
   - Small tilemap_2
   - Small tilemap_1
   - Small tilemap_0
+  - joysticktausta
   - "silm\xE4t"
   - kukkapenkki_right
   - "Takasein\xE4"
@@ -174,6 +177,7 @@ SpriteAtlas:
   - "oikeasein\xE4_v2"
   - Jatkopala
   - kukkapenkki_middle
+  - joystick
   - LattiatiilitV2
   - button1_red
   - tile1
