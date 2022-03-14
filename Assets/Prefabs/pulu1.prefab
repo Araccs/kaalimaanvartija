@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 9100735350237836297}
   - component: {fileID: 3803680866665446073}
   - component: {fileID: 7831736503821401915}
+  - component: {fileID: 7069918644791856962}
+  - component: {fileID: 7069918644791856961}
+  - component: {fileID: 7069918644791856966}
   m_Layer: 0
   m_Name: pulu1
   m_TagString: Untagged
@@ -72,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 126fe7a2d1fbc074bb46ccfba8c64050, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 285dec73a2ee78a4da316ab2cfb9aa1e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -100,4 +103,57 @@ MonoBehaviour:
   - {fileID: 0}
   speed: 3
   howclose: 1
-  fear: 0
+  healtBar: {fileID: 0}
+  timer: 0
+--- !u!50 &7069918644791856962
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4883262762211955169}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!95 &7069918644791856961
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4883262762211955169}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: aff77b84564d7ff4a8250353a3e32ee4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7069918644791856966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4883262762211955169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9efd9293a080ca45ad6c131a28a1e4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

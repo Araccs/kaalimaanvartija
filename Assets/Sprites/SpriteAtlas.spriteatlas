@@ -110,6 +110,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: fc304e69d0f839440aeb1991e5299e52, type: 3}
   - {fileID: 21300000, guid: 1266318967063e449ae4f62170728b21, type: 3}
   - {fileID: 21300000, guid: 2bda79899e48051459e581d7e6018374, type: 3}
+  - {fileID: 21300000, guid: 8afe449ac9fe6c5419337246c14f5766, type: 3}
   - {fileID: 21300000, guid: 2f6c969ae1ea28d44be5efec2fb32f73, type: 3}
   - {fileID: 21300000, guid: cd2c71ba799ba4d41996c694e5426cd8, type: 3}
   - {fileID: 21300000, guid: 2e68f60b2badff046bfc8633b10e056c, type: 3}
@@ -127,6 +128,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: ed6058edf26001449ba4cd51a75294ac, type: 3}
   - {fileID: 21300000, guid: 6aad2b1ee415ff6469171e6ce7e12a88, type: 3}
   - {fileID: 21300000, guid: 803e7c4e19fb77343a21c7fdf3edefec, type: 3}
+  - {fileID: 21300000, guid: 2eafce4e861336d48ac5fbdd3d15b680, type: 3}
   - {fileID: 21300000, guid: 0903a06e7873b1042ba9244c7385d84d, type: 3}
   - {fileID: 21300000, guid: a447c7ce703ea4c458a0438ed36dab2a, type: 3}
   - {fileID: 21300000, guid: d785ea7f11d5ab244b4813a75ab0ba5d, type: 3}
@@ -191,6 +193,7 @@ SpriteAtlas:
   - Kulmapala_vasen
   - "Sein\xE4V2"
   - kukkapenkki_right
+  - pulu_flying_03_right
   - button1_yellow
   - Health_fill
   - heart
@@ -208,6 +211,7 @@ SpriteAtlas:
   - Scarecrow_Button
   - Ikkuna2
   - Health_hp
+  - pulu_flying_01_right
   - Chili
   - takaproffawalk
   - clock
