@@ -83,7 +83,9 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 225d1be18aa55184d9f19845d2066a13, type: 3}
   - {fileID: 21300000, guid: d588ccf1648bff14080344018fd29c2f, type: 3}
   - {fileID: 21300000, guid: 0c60d702512f0b446bb09edb4bcecc3b, type: 3}
+  - {fileID: 21300000, guid: 2f1f51127fd4b00459dfb2e2c08d202f, type: 3}
   - {fileID: 21300000, guid: 2de19f1210a978e419fe1058726c66f0, type: 3}
+  - {fileID: 21300000, guid: 0e568022c3d4e2a4e97ffe4cd461dcda, type: 3}
   - {fileID: 21300000, guid: 0a95a6421dbc20c4da1c6079bc1778b0, type: 3}
   - {fileID: 21300000, guid: 126fe7a2d1fbc074bb46ccfba8c64050, type: 3}
   - {fileID: 21300000, guid: 3e7691e200890b149930a5dc06ebc508, type: 3}
@@ -93,6 +95,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 9ad470d4b176e9a4fb98aae1f8356a7b, type: 3}
   - {fileID: 21300000, guid: b9b28f15673719149a016b34c06b1c41, type: 3}
   - {fileID: 21300000, guid: 054c1c354d111314db92b7d2c301d1fe, type: 3}
+  - {fileID: 21300000, guid: fb59cc35bc4b1224e9e6f27a4076ecdb, type: 3}
   - {fileID: 908695367317944549, guid: ef2dead5d779a524d8077cf6fb392026, type: 3}
   - {fileID: -1368899909649150793, guid: ef2dead5d779a524d8077cf6fb392026, type: 3}
   - {fileID: -2271862466029872859, guid: ef2dead5d779a524d8077cf6fb392026, type: 3}
@@ -124,6 +127,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: ed6058edf26001449ba4cd51a75294ac, type: 3}
   - {fileID: 21300000, guid: 6aad2b1ee415ff6469171e6ce7e12a88, type: 3}
   - {fileID: 21300000, guid: 803e7c4e19fb77343a21c7fdf3edefec, type: 3}
+  - {fileID: 21300000, guid: 0903a06e7873b1042ba9244c7385d84d, type: 3}
   - {fileID: 21300000, guid: a447c7ce703ea4c458a0438ed36dab2a, type: 3}
   - {fileID: 21300000, guid: d785ea7f11d5ab244b4813a75ab0ba5d, type: 3}
   - {fileID: 21300000, guid: 05f6d4df4be18b842838e946f1ccbcc2, type: 3}
@@ -160,7 +164,9 @@ SpriteAtlas:
   - button1_green
   - Takakulma_oikea
   - logo
+  - Lukko
   - Kaali
+  - level_button_empty
   - pulu_flying_03
   - pulu1
   - Ruoho1
@@ -170,6 +176,7 @@ SpriteAtlas:
   - Health
   - Pelihahmo 3.2
   - "vasen_sein\xE4"
+  - tile_blue_1
   - tamperetalo2_2
   - tamperetalo2_3
   - tamperetalo2_0
@@ -201,6 +208,7 @@ SpriteAtlas:
   - Scarecrow_Button
   - Ikkuna2
   - Health_hp
+  - Chili
   - takaproffawalk
   - clock
   - button_01

@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 namespace kaalimaanvartija
 {
-    public class SceneLoader : MonoBehaviour
+    public class ButtonSceneLoader : MonoBehaviour
     {
-        public void loadScene (string level) {
+        public void LoadSceneButton(string level)
+        {
             SceneManager.LoadScene(level);
         }
     }
