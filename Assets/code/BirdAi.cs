@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 namespace kaalimaanvartija
 {
@@ -13,6 +14,8 @@ namespace kaalimaanvartija
         private float dist;
         public float howclose;
         private Vector2 birdPosition;
+        private bool takingDamage = false;
+        public Slider healtBar;
 
         private bool fear = false;
 
@@ -30,7 +33,7 @@ namespace kaalimaanvartija
             birdPosition = transform.position;
 
             dist = Vector2.Distance(birdPosition, player.position);
-            print("Distance to other: " + birdPosition);
+            
 
             if (timer > 0)
                 {
@@ -38,7 +41,7 @@ namespace kaalimaanvartija
                 }
                     if (timer <= 1)
                     {
-                        Debug.Log("joooooo");
+                        
                         if(dist <= howclose)
                         {
                         fear = true;
@@ -56,9 +59,39 @@ namespace kaalimaanvartija
                         transform.position = Vector3.MoveTowards(transform.position, points[1].position, speed * Time.deltaTime);
                         }
                     }
+
+                if (transform.position == points[0].position) {
+                    if (takingDamage == false) {
+                     StartCoroutine(waitCoroutine());
                 
+                     }
                 
+                }
+
+
+
+
+        }
+
+        IEnumerator waitCoroutine() {
+            takingDamage = true;
+            yield return new WaitForSeconds(2);
+            TakeDamage(1);
+            takingDamage = false;
             
         }
+
+
+        void TakeDamage(int damage) 
+        {
+            healtBar.value -= damage;
+
+
+        }
+
+
+
+
+
     }
 }

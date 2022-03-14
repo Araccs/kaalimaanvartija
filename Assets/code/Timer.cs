@@ -20,7 +20,7 @@ public class Timer : MonoBehaviour
         timerIsRunning = true;
         timeOfDay = 8.00f;
         hourTime = timeRemaining / 8;
-        Debug.Log("hourtime " + hourTime);
+        
         levelFinished = false;
     }
     void Update()
@@ -36,13 +36,12 @@ public class Timer : MonoBehaviour
                     hourCounter = 0;
                     timeOfDay++;
                 }
-                Debug.Log(timeOfDay);
+               
             }
             else
             {
                 timeOfDay++;
-                Debug.Log(timeOfDay);
-                Debug.Log("Time has run out!");
+               
                 timeRemaining = 0;
                 timerIsRunning = false;
                 levelFinished = true;
