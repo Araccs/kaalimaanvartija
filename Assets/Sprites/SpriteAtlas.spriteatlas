@@ -92,6 +92,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 259be90345402274ea803d6b4c83b9d7, type: 3}
   - {fileID: 21300000, guid: 285dec73a2ee78a4da316ab2cfb9aa1e, type: 3}
   - {fileID: 21300000, guid: 7b8d11848f1dbd246a25d618c1926bf4, type: 3}
+  - {fileID: 21300000, guid: 98aedab4cd2d33748938aee92e6acfb3, type: 3}
   - {fileID: 21300000, guid: 9ad470d4b176e9a4fb98aae1f8356a7b, type: 3}
   - {fileID: 21300000, guid: b9b28f15673719149a016b34c06b1c41, type: 3}
   - {fileID: 21300000, guid: 054c1c354d111314db92b7d2c301d1fe, type: 3}
@@ -175,6 +176,7 @@ SpriteAtlas:
   - kukkapenkki_left
   - pulu_idle_01
   - Jatkopala_vasen
+  - SIBULI
   - Health
   - Pelihahmo 3.2
   - "vasen_sein\xE4"
