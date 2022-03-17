@@ -119,12 +119,14 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 2f6c969ae1ea28d44be5efec2fb32f73, type: 3}
   - {fileID: 21300000, guid: cd2c71ba799ba4d41996c694e5426cd8, type: 3}
   - {fileID: 21300000, guid: 2e68f60b2badff046bfc8633b10e056c, type: 3}
+  - {fileID: 21300000, guid: 4e53177bded5bab45ac5e8a5f295eecf, type: 3}
   - {fileID: 21300000, guid: 3823709b2165f304f8855334386fc5db, type: 3}
   - {fileID: 21300000, guid: 9ffcab9bda8bfcf45a8e7792ce56512d, type: 3}
   - {fileID: 21300000, guid: be67eccb76f6db240864a8cf21f45958, type: 3}
   - {fileID: 21300000, guid: 804275ebe0834644a85ec452cd7fe170, type: 3}
   - {fileID: 21300000, guid: 1e75a7fbcdb11074a8d16f64de9cbf9a, type: 3}
   - {fileID: 21300000, guid: 5cad094c1173fbc42a9913829826dbbd, type: 3}
+  - {fileID: 21300000, guid: 564c125c29607ea4ba73de4404cf58eb, type: 3}
   - {fileID: 21300000, guid: 063484dc567e43948969a560f9032ea1, type: 3}
   - {fileID: 21300000, guid: 2a36c4dca9e0cbe4ba67dcb565863eb3, type: 3}
   - {fileID: 21300000, guid: 51ea170d725bd8544a313f2c9b13318f, type: 3}
@@ -210,12 +212,14 @@ SpriteAtlas:
   - button1_yellow
   - Health_fill
   - heart
+  - autotie
   - pulu_flying_01
   - pilvi
   - sivuwalk_oikealle
   - Kulmapala_v2
   - kukkapenkki_middle
   - etuwalk
+  - heatwave
   - airconditioner
   - sivuwalk_oikealle2
   - "sein\xE4"
