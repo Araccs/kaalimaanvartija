@@ -51,6 +51,7 @@ SpriteAtlas:
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: 9a0aa410ed404b34b8d40c9bf63d80a4, type: 3}
   - {fileID: 21300000, guid: d7519f10bf722e94c9aac49fd6db2f00, type: 3}
   - {fileID: 21300000, guid: 9ddd8e205482a124284a4a0664022173, type: 3}
   - {fileID: 21300000, guid: 36a602406de2db64281291205df78fce, type: 3}
@@ -101,10 +102,13 @@ SpriteAtlas:
   - {fileID: -1368899909649150793, guid: ef2dead5d779a524d8077cf6fb392026, type: 3}
   - {fileID: -2271862466029872859, guid: ef2dead5d779a524d8077cf6fb392026, type: 3}
   - {fileID: -1395561467010985548, guid: ef2dead5d779a524d8077cf6fb392026, type: 3}
+  - {fileID: 21300000, guid: 336ce3367f82acf489651a7b11c7cba8, type: 3}
   - {fileID: 21300000, guid: eb850f3650ff90341a31ce1d0aaebcda, type: 3}
   - {fileID: 21300000, guid: 0cdfe53729d845f408eb9e9911119b68, type: 3}
   - {fileID: 21300000, guid: fc18a05784102bf40aba29c378c264ae, type: 3}
   - {fileID: 21300000, guid: 156afef7244f28241a823ab558d79346, type: 3}
+  - {fileID: 21300000, guid: 216fe238d0e8a9a4cb0a364020ea6d38, type: 3}
+  - {fileID: 21300000, guid: a54e9c78e39e0184a8d25b92fcce4c57, type: 3}
   - {fileID: 21300000, guid: bc797eb8dde7065468de26a69b3998f4, type: 3}
   - {fileID: 21300000, guid: e373d539c9620854e84102648bc97975, type: 3}
   - {fileID: 21300000, guid: 6d69b06992698a94db0952a8f664403d, type: 3}
@@ -116,6 +120,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: cd2c71ba799ba4d41996c694e5426cd8, type: 3}
   - {fileID: 21300000, guid: 2e68f60b2badff046bfc8633b10e056c, type: 3}
   - {fileID: 21300000, guid: 3823709b2165f304f8855334386fc5db, type: 3}
+  - {fileID: 21300000, guid: 9ffcab9bda8bfcf45a8e7792ce56512d, type: 3}
   - {fileID: 21300000, guid: be67eccb76f6db240864a8cf21f45958, type: 3}
   - {fileID: 21300000, guid: 804275ebe0834644a85ec452cd7fe170, type: 3}
   - {fileID: 21300000, guid: 1e75a7fbcdb11074a8d16f64de9cbf9a, type: 3}
@@ -131,10 +136,13 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 803e7c4e19fb77343a21c7fdf3edefec, type: 3}
   - {fileID: 21300000, guid: 2eafce4e861336d48ac5fbdd3d15b680, type: 3}
   - {fileID: 21300000, guid: 0903a06e7873b1042ba9244c7385d84d, type: 3}
+  - {fileID: 21300000, guid: 781c87ce4288cf248ba3c819d471667a, type: 3}
   - {fileID: 21300000, guid: a447c7ce703ea4c458a0438ed36dab2a, type: 3}
   - {fileID: 21300000, guid: d785ea7f11d5ab244b4813a75ab0ba5d, type: 3}
+  - {fileID: 21300000, guid: 9ec3f1bf39a57a54b9038c8f49edcddc, type: 3}
   - {fileID: 21300000, guid: 05f6d4df4be18b842838e946f1ccbcc2, type: 3}
   m_PackedSpriteNamesToIndex:
+  - kukkapenkki_middle_v2
   - "vasensein\xE4_v2"
   - kukkapenkki_left
   - sivuprofiili_skaalattu_oikea
@@ -185,10 +193,13 @@ SpriteAtlas:
   - tamperetalo2_3
   - tamperetalo2_0
   - tamperetalo2_1
+  - kukkapenkki_right_v2
   - "oikeasein\xE4_v2"
   - Jatkopala
   - kukkapenkki_middle
   - joystick
+  - puu2
+  - kukkapenkki_left_v2
   - LattiatiilitV2
   - button1_red
   - tile1
@@ -200,6 +211,7 @@ SpriteAtlas:
   - Health_fill
   - heart
   - pulu_flying_01
+  - pilvi
   - sivuwalk_oikealle
   - Kulmapala_v2
   - kukkapenkki_middle
@@ -215,8 +227,10 @@ SpriteAtlas:
   - Health_hp
   - pulu_flying_01_right
   - Chili
+  - puu
   - takaproffawalk
   - clock
+  - nurtsi
   - button_01
   m_RenderDataMap: {}
   m_Tag: SpriteAtlas

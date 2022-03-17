@@ -8,7 +8,7 @@ public class Timer : MonoBehaviour
     [SerializeField] TMP_Text timerText;
     private float hourTime;
     private bool timerIsRunning = false;
-    private bool levelFinished;
+    public bool levelFinished;
     float workingHours;
     float percentageDay;
     float timeOfDay;
