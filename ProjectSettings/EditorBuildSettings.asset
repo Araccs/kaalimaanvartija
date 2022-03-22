@@ -8,17 +8,31 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/GRAFFAtest.unity
     guid: 8defdfd8c72d3be4bb7ef2ba87479448
+<<<<<<< Updated upstream
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: ba3c32badf462724bb9898580cf2de9d
+=======
+  - enabled: 0
+    path: Assets/Scenes/Level1 work.unity
+    guid: f17a52efb594be44184f8f1536416b2e
+>>>>>>> Stashed changes
   - enabled: 1
     path: Assets/Scenes/Level_Menu.unity
     guid: 9608c9b56b1f67442907ccf51dadbf2d
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/Scenes/Level1.unity
     guid: cf91a810f5eb38f4eaaea64fb97ae3f8
   - enabled: 0
     path: Assets/Scenes/Level1 work.unity
     guid: f17a52efb594be44184f8f1536416b2e
+=======
+    path: Assets/Scenes/MainMenu.unity
+    guid: ba3c32badf462724bb9898580cf2de9d
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: cf91a810f5eb38f4eaaea64fb97ae3f8
+>>>>>>> Stashed changes
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: c997902b81ba49f4eb075f922664b207, type: 2}
