@@ -16,9 +16,9 @@ namespace kaalimaanvartija
         private Vector2 birdPosition;
         private bool takingDamage = false;
         public Slider healtBar;
-
+        private bool reRun = false;
         private bool fear = false;
-
+        private int life;
         [SerializeField]
         private float timer;
 
@@ -34,7 +34,7 @@ namespace kaalimaanvartija
 
             dist = Vector2.Distance(birdPosition, player.position);
             
-
+            
             if (timer > 0)
                 {
                 timer -= Time.deltaTime;
@@ -68,7 +68,9 @@ namespace kaalimaanvartija
                 
                 }
 
-
+            if (transform.position == points[1].position && reRun == false) {
+                StartCoroutine(restartCoroutine());
+            }
 
 
         }
@@ -81,9 +83,17 @@ namespace kaalimaanvartija
             
         }
 
+        IEnumerator restartCoroutine() {
+            reRun = true;
+            yield return new WaitForSeconds(Random.Range(5, 30));
+            fear = false;
+            reRun = false;
+        }
+
 
         void TakeDamage(int damage) 
         {
+            
             healtBar.value -= damage;
 
 
