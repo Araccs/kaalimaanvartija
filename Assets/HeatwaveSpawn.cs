@@ -17,7 +17,7 @@ namespace kaalimaanvartija
         {
             Tilemap = GameObject.FindWithTag("Tilemap");
             speed = speed / 100f;
-            new_heatwave = Instantiate(heatwave, new Vector3(-15, 0, 0),Quaternion.identity);
+            new_heatwave = Instantiate(heatwave, new Vector3(-25, 0, 0),Quaternion.identity);
             new_heatwave.transform.parent = Tilemap.transform;
         }
 
@@ -29,6 +29,11 @@ namespace kaalimaanvartija
             {
                 healthbar.value -= 1;
             }
+            else if (new_heatwave.transform.position.x > 20)
+            {
+                Destroy(new_heatwave);
+            }
+
         }
     }
 }
