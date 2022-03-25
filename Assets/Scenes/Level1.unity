@@ -2437,6 +2437,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a997286c1cf711a47b98de9454a6ab5e, type: 3}
+--- !u!1 &377155493 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4935780977151620021, guid: 27b3d132e5779ab43be2d0f6ae1af3e4, type: 3}
+  m_PrefabInstance: {fileID: 1005908934}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &503364848
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2536,10 +2541,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PormestariCanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 8554934441598205931, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 4ea6d0150e301d7488cafc19b4a7dc1a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
 --- !u!1 &516402241
@@ -3368,6 +3369,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &873996661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 873996663}
+  - component: {fileID: 873996662}
+  m_Layer: 0
+  m_Name: LevelStateCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &873996662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873996661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c7021236cb5644dac9eda59f60e65f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelComplete: {fileID: 8887062401222778858, guid: b02d2d7afd29a9a4682c9bd351478a18, type: 3}
+  timer: {fileID: 377155493}
+--- !u!4 &873996663
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873996661}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &920198568
 PrefabInstance:
