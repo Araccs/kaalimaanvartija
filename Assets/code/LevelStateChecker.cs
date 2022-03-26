@@ -42,6 +42,45 @@ namespace kaalimaanvartija
                     }
                 }
 
+                if (sceneName == "Level2")
+                {
+                    level3open = true;
+                    if (once == false)
+                    {
+                        once = true;
+                        Instantiate(levelComplete, new Vector3(0, 0, 0), Quaternion.identity);
+                    }
+                }
+
+                if (sceneName == "Level3")
+                {
+                    level4open = true;
+                    if (once == false)
+                    {
+                        once = true;
+                        Instantiate(levelComplete, new Vector3(0, 0, 0), Quaternion.identity);
+                    }
+                }
+
+                if (sceneName == "Level4")
+                {
+                    level5open = true;
+                    if (once == false)
+                    {
+                        once = true;
+                        Instantiate(levelComplete, new Vector3(0, 0, 0), Quaternion.identity);
+                    }
+                }
+
+                if (sceneName == "Level5")
+                {
+                    level6open = true;
+                    if (once == false)
+                    {
+                        once = true;
+                        Instantiate(levelComplete, new Vector3(0, 0, 0), Quaternion.identity);
+                    }
+                }
 
             }
         }
