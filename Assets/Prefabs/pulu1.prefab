@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7069918644791856962}
   - component: {fileID: 7069918644791856961}
   - component: {fileID: 7069918644791856966}
+  - component: {fileID: 540774020463017312}
   m_Layer: 0
   m_Name: pulu1
   m_TagString: Untagged
@@ -157,3 +158,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9efd9293a080ca45ad6c131a28a1e4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &540774020463017312
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4883262762211955169}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5

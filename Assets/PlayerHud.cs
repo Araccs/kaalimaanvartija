@@ -10,6 +10,7 @@ namespace kaalimaanvartija
         void Awake()
         {
             hud = GameObject.Find("HUD");
+            
         }
 
         // Update is called once per frame

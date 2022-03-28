@@ -21,10 +21,11 @@ namespace kaalimaanvartija
         private int life;
         [SerializeField]
         private float timer;
+        
 
         void Start()
         {
-           
+            
             player = GameObject.FindGameObjectWithTag("Player").transform;
         }
 
@@ -33,6 +34,7 @@ namespace kaalimaanvartija
             birdPosition = transform.position;
 
             dist = Vector2.Distance(birdPosition, player.position);
+            
             
             
             if (timer > 0)
@@ -99,8 +101,18 @@ namespace kaalimaanvartija
 
         }
 
+        void OnTriggerEnter2D(Collider2D collision) 
+        {
+            Debug.Log("x");
+            
+        
 
-
+            if (collision.gameObject.tag == "Scarecrow")
+            {
+                Debug.Log("a");
+                fear = true;
+            }
+        }
 
 
     }

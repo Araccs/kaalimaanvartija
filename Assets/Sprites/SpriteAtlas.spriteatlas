@@ -109,6 +109,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: eb850f3650ff90341a31ce1d0aaebcda, type: 3}
   - {fileID: 21300000, guid: 0cdfe53729d845f408eb9e9911119b68, type: 3}
   - {fileID: 21300000, guid: fc18a05784102bf40aba29c378c264ae, type: 3}
+  - {fileID: 21300000, guid: bd78e6c7c5b579541b8a307e56e6627c, type: 3}
   - {fileID: 21300000, guid: 156afef7244f28241a823ab558d79346, type: 3}
   - {fileID: 21300000, guid: 216fe238d0e8a9a4cb0a364020ea6d38, type: 3}
   - {fileID: 21300000, guid: a54e9c78e39e0184a8d25b92fcce4c57, type: 3}
@@ -208,6 +209,7 @@ SpriteAtlas:
   - "oikeasein\xE4_v2"
   - Jatkopala
   - kukkapenkki_middle
+  - "Pel\xE4tin"
   - joystick
   - puu2
   - kukkapenkki_left_v2

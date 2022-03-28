@@ -20,13 +20,13 @@ namespace kaalimaanvartija
         void Update()
         {
             
-            Debug.Log("isnotmoging");
+            
             anim.SetBool("isMoving", false);
             anim.SetFloat("Vertical", -1);
             if (transform.position != startingPos)
             {
                 anim.SetBool ("isMoving", true);
-                Debug.Log("ismoging");
+                
 
                 if(transform.position.x > startingPos.x)
                 {
