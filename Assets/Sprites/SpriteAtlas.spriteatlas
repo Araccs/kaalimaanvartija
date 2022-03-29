@@ -86,6 +86,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: d588ccf1648bff14080344018fd29c2f, type: 3}
   - {fileID: 21300000, guid: 0c60d702512f0b446bb09edb4bcecc3b, type: 3}
   - {fileID: 21300000, guid: 2f1f51127fd4b00459dfb2e2c08d202f, type: 3}
+  - {fileID: 21300000, guid: 84b181127e0e49c4f847d00cc9fa11e5, type: 3}
   - {fileID: 21300000, guid: 2de19f1210a978e419fe1058726c66f0, type: 3}
   - {fileID: 21300000, guid: 0e568022c3d4e2a4e97ffe4cd461dcda, type: 3}
   - {fileID: 21300000, guid: 0a95a6421dbc20c4da1c6079bc1778b0, type: 3}
@@ -186,6 +187,7 @@ SpriteAtlas:
   - Takakulma_oikea
   - logo
   - Lukko
+  - puhekuplaV2
   - Kaali
   - level_button_empty
   - pulu_flying_03
