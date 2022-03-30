@@ -9,6 +9,8 @@ TagManager:
   - Tilemap
   - Scarecrow
   - ScarecrowNappi
+  - WateringCan
+  - Vegetable
   layers:
   - Default
   - TransparentFX

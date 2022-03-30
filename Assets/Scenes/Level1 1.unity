@@ -3530,54 +3530,14 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1284818795, guid: 27b3d132e5779ab43be2d0f6ae1af3e4, type: 3}
-      propertyPath: m_TagString
-      value: ScarecrowNappi
-      objectReference: {fileID: 0}
-    - target: {fileID: 1284818797, guid: 27b3d132e5779ab43be2d0f6ae1af3e4, type: 3}
-      propertyPath: m_Colors.m_DisabledColor.b
-      value: 0.75534
-      objectReference: {fileID: 0}
-    - target: {fileID: 1284818797, guid: 27b3d132e5779ab43be2d0f6ae1af3e4, type: 3}
-      propertyPath: m_Colors.m_DisabledColor.g
-      value: 0.75534
-      objectReference: {fileID: 0}
-    - target: {fileID: 1284818797, guid: 27b3d132e5779ab43be2d0f6ae1af3e4, type: 3}
-      propertyPath: m_Colors.m_DisabledColor.r
-      value: 0.7735849
-      objectReference: {fileID: 0}
-    - target: {fileID: 1284818797, guid: 27b3d132e5779ab43be2d0f6ae1af3e4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1284818797, guid: 27b3d132e5779ab43be2d0f6ae1af3e4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1284818797, guid: 27b3d132e5779ab43be2d0f6ae1af3e4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 285110647}
-    - target: {fileID: 1284818797, guid: 27b3d132e5779ab43be2d0f6ae1af3e4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1284818797, guid: 27b3d132e5779ab43be2d0f6ae1af3e4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: TaskOnClick
-      objectReference: {fileID: 0}
-    - target: {fileID: 1284818797, guid: 27b3d132e5779ab43be2d0f6ae1af3e4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: kaalimaanvartija.ScarecrowButton, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 1284818797, guid: 27b3d132e5779ab43be2d0f6ae1af3e4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 4935780976334290572, guid: 27b3d132e5779ab43be2d0f6ae1af3e4, type: 3}
-      propertyPath: m_Name
-      value: HUD
-      objectReference: {fileID: 0}
+    - target: {fileID: 1703610591, guid: 27b3d132e5779ab43be2d0f6ae1af3e4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1305030777}
     - target: {fileID: 4935780977451243760, guid: 27b3d132e5779ab43be2d0f6ae1af3e4, type: 3}
       propertyPath: m_Name
       value: PlayerHUD
@@ -4004,6 +3964,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1305030777 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8378539541786290215, guid: 44ca43841182ee645923edd0992e6809, type: 3}
+  m_PrefabInstance: {fileID: 8378539540791777374}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96da4abcef28d14fbdd1be5ebe4072f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1362513597
 GameObject:
   m_ObjectHideFlags: 0
@@ -5524,23 +5495,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1533426383 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4935780977451243760, guid: 27b3d132e5779ab43be2d0f6ae1af3e4, type: 3}
-  m_PrefabInstance: {fileID: 1005908934}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1533426385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533426383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 943b25cd5cabeff41af40fd63d77fd37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1612341237
 GameObject:
   m_ObjectHideFlags: 0
@@ -6325,7 +6279,7 @@ GameObject:
   - component: {fileID: 1853566648}
   m_Layer: 0
   m_Name: Chilit
-  m_TagString: Untagged
+  m_TagString: Vegetable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6689,6 +6643,67 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 484d93223103cc34fbbb9213c2792304, type: 3}
+--- !u!1001 &8378539540791777374
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8378539541786290214, guid: 44ca43841182ee645923edd0992e6809, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378539541786290214, guid: 44ca43841182ee645923edd0992e6809, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378539541786290214, guid: 44ca43841182ee645923edd0992e6809, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378539541786290214, guid: 44ca43841182ee645923edd0992e6809, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378539541786290214, guid: 44ca43841182ee645923edd0992e6809, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378539541786290214, guid: 44ca43841182ee645923edd0992e6809, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378539541786290214, guid: 44ca43841182ee645923edd0992e6809, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378539541786290214, guid: 44ca43841182ee645923edd0992e6809, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378539541786290214, guid: 44ca43841182ee645923edd0992e6809, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378539541786290214, guid: 44ca43841182ee645923edd0992e6809, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378539541786290214, guid: 44ca43841182ee645923edd0992e6809, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378539541786290215, guid: 44ca43841182ee645923edd0992e6809, type: 3}
+      propertyPath: healthslider
+      value: 
+      objectReference: {fileID: 1005908935}
+    - target: {fileID: 8378539541786290217, guid: 44ca43841182ee645923edd0992e6809, type: 3}
+      propertyPath: m_Name
+      value: WateringCan
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 44ca43841182ee645923edd0992e6809, type: 3}
 --- !u!1001 &8856931790116350422
 PrefabInstance:
   m_ObjectHideFlags: 0

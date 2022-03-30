@@ -80,6 +80,7 @@ SpriteAtlas:
   - {fileID: 5935501041563970489, guid: 34439191d8dbcc44382e697d7631d2b4, type: 3}
   - {fileID: 4537812021183745795, guid: 34439191d8dbcc44382e697d7631d2b4, type: 3}
   - {fileID: 2609027320737431966, guid: 34439191d8dbcc44382e697d7631d2b4, type: 3}
+  - {fileID: 21300000, guid: 04fe20a13cd3af646ae61c0052d9ae0f, type: 3}
   - {fileID: 21300000, guid: 6974f2c1399dee84aa8f23e3eb86de4c, type: 3}
   - {fileID: 21300000, guid: 58d5bdc116a6c94488cfa430d89e5ff1, type: 3}
   - {fileID: 21300000, guid: 225d1be18aa55184d9f19845d2066a13, type: 3}
@@ -97,6 +98,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 7b8d11848f1dbd246a25d618c1926bf4, type: 3}
   - {fileID: 21300000, guid: 98aedab4cd2d33748938aee92e6acfb3, type: 3}
   - {fileID: 21300000, guid: 9ad470d4b176e9a4fb98aae1f8356a7b, type: 3}
+  - {fileID: 21300000, guid: 714260e447f87e54893da7b0412ef4bd, type: 3}
   - {fileID: 21300000, guid: 4ea6d0150e301d7488cafc19b4a7dc1a, type: 3}
   - {fileID: 21300000, guid: b9b28f15673719149a016b34c06b1c41, type: 3}
   - {fileID: 21300000, guid: 054c1c354d111314db92b7d2c301d1fe, type: 3}
@@ -108,6 +110,7 @@ SpriteAtlas:
   - {fileID: -1395561467010985548, guid: ef2dead5d779a524d8077cf6fb392026, type: 3}
   - {fileID: 21300000, guid: 336ce3367f82acf489651a7b11c7cba8, type: 3}
   - {fileID: 21300000, guid: eb850f3650ff90341a31ce1d0aaebcda, type: 3}
+  - {fileID: 21300000, guid: efcdf2d65ec8afe488464a7c1b2034f6, type: 3}
   - {fileID: 21300000, guid: 0cdfe53729d845f408eb9e9911119b68, type: 3}
   - {fileID: 21300000, guid: fc18a05784102bf40aba29c378c264ae, type: 3}
   - {fileID: 21300000, guid: bd78e6c7c5b579541b8a307e56e6627c, type: 3}
@@ -146,6 +149,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 803e7c4e19fb77343a21c7fdf3edefec, type: 3}
   - {fileID: 21300000, guid: 2eafce4e861336d48ac5fbdd3d15b680, type: 3}
   - {fileID: 21300000, guid: 0903a06e7873b1042ba9244c7385d84d, type: 3}
+  - {fileID: 21300000, guid: 279697be6e762dd43a311238433a2189, type: 3}
   - {fileID: 21300000, guid: 781c87ce4288cf248ba3c819d471667a, type: 3}
   - {fileID: 21300000, guid: a447c7ce703ea4c458a0438ed36dab2a, type: 3}
   - {fileID: 21300000, guid: d785ea7f11d5ab244b4813a75ab0ba5d, type: 3}
@@ -181,6 +185,7 @@ SpriteAtlas:
   - Tilemap_pink_2
   - Tilemap_pink_1
   - Tilemap_pink_0
+  - Watering_can_button_v2
   - sivuprofiili_skaalattu
   - etuwalk2
   - button1_green
@@ -198,6 +203,7 @@ SpriteAtlas:
   - Jatkopala_vasen
   - SIBULI
   - Health
+  - kastelukannu
   - speechbubble
   - Pelihahmo 3.2
   - "vasen_sein\xE4"
@@ -209,6 +215,7 @@ SpriteAtlas:
   - tamperetalo2_1
   - kukkapenkki_right_v2
   - "oikeasein\xE4_v2"
+  - window
   - Jatkopala
   - kukkapenkki_middle
   - "Pel\xE4tin"
@@ -247,6 +254,7 @@ SpriteAtlas:
   - Health_hp
   - pulu_flying_01_right
   - Chili
+  - Watering_can_button
   - puu
   - takaproffawalk
   - clock
