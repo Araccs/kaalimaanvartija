@@ -29,21 +29,21 @@ namespace kaalimaanvartija
             
             if (spawned == false)
             {
-                newScarecrow = Instantiate (Scarecrow, player.transform.position, Quaternion.identity);
-                scarecrowAudioSource.PlayOneShot(scarecrowAudioSpawn);
+                newScarecrow = Instantiate(Scarecrow, player.transform.position, Quaternion.identity);
+                // scarecrowAudioSource.PlayOneShot(scarecrowAudioSpawn);
                 spawned = true;
                 ScarecrowNappi.interactable = false;
-                StartCoroutine (ScarecrowTimer());
+                StartCoroutine(ScarecrowTimer());
                 
             }   
         }
 
         IEnumerator ScarecrowTimer() 
         {
-            
+            Debug.Log("TImer");
             yield return new WaitForSeconds(time);
-            Destroy (newScarecrow);
-            scarecrowAudioSource.PlayOneShot(scarecrowAudioDestroy);
+            Destroy(newScarecrow);
+            // scarecrowAudioSource.PlayOneShot(scarecrowAudioDestroy);
             spawned = false;
             yield return new WaitForSeconds(timeodota);
             ScarecrowNappi.interactable = true;
