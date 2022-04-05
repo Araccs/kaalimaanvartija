@@ -54,32 +54,32 @@ namespace kaalimaanvartija
         void Update()
         {
         //tarkistetaan onko leveli unlockattu
-        if(LevelStateChecker.level2open == true)
+        if(LevelStateChecker.level2open == 1)
             {
                 // jos leveli on unlockattu, vaihdetaan nappiin sprite ja aktivoidaan teksti (levelin numero).
                 level2.GetComponent<Image>().sprite = newImg;
                 level2.GetComponent<Button>().interactable = true;
                 level2_tmp.SetActive(true);
             }
-        if (LevelStateChecker.level3open == true)
+        if (LevelStateChecker.level3open == 1)
             {
                 level3.GetComponent<Image>().sprite = newImg;
                 level3.GetComponent<Button>().interactable = true;
                 level3_tmp.SetActive(true);
             }
-        if (LevelStateChecker.level4open == true)
+        if (LevelStateChecker.level4open == 1)
             {
                 level4.GetComponent<Image>().sprite = newImg;
                 level4.GetComponent<Button>().interactable = true;
                 level3_tmp.SetActive(true);
             }
-        if (LevelStateChecker.level5open == true)
+        if (LevelStateChecker.level5open == 1)
             {
                 level5.GetComponent<Image>().sprite = newImg;
                 level5.GetComponent<Button>().interactable = true;
                 level3_tmp.SetActive(true);
             }
-        if (LevelStateChecker.level6open == true)
+        if (LevelStateChecker.level6open == 1)
             {
                 level6.GetComponent<Image>().sprite = newImg;
                 level6.GetComponent<Button>().interactable = true;
