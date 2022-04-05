@@ -21,12 +21,20 @@ namespace kaalimaanvartija
         private int life;
         [SerializeField]
         private float timer;
+        AudioSource puluAudioSource;
+        public AudioClip puluFearAudio;
+        public AudioClip puluDamageAudio;
+        public bool puluFearPlayed = false;
         
-
         void Start()
         {
-            
             player = GameObject.FindGameObjectWithTag("Player").transform;
+
+            puluAudioSource = GetComponent<AudioSource>();
+            puluAudioSource.enabled = true;
+            
+            
+            
         }
 
         void Update()
@@ -47,12 +55,17 @@ namespace kaalimaanvartija
                         if(dist <= howclose)
                         {
                         fear = true;
+                            if (!puluFearPlayed)
+                            {
+                                puluAudioSource.PlayOneShot(puluFearAudio);
+                                puluFearPlayed = true;
+                            }
                         }  
 
                         if (fear != true) {
-                
+                            
                         {
-                        transform.position = Vector3.MoveTowards(transform.position, points[0].position, speed * Time.deltaTime);
+                            transform.position = Vector3.MoveTowards(transform.position, points[0].position, speed * Time.deltaTime);
                         }
                
                         }
@@ -64,8 +77,7 @@ namespace kaalimaanvartija
 
                 if (transform.position == points[0].position) {
                     if (takingDamage == false) {
-                     StartCoroutine(waitCoroutine());
-                
+                        StartCoroutine(waitCoroutine());
                      }
                 
                 }
@@ -97,23 +109,19 @@ namespace kaalimaanvartija
         {
             
             healtBar.value -= damage;
-
+            puluAudioSource.PlayOneShot(puluDamageAudio);
 
         }
 
         void OnTriggerEnter2D(Collider2D collision) 
         {
-            Debug.Log("x");
-            
-        
-
             if (collision.gameObject.tag == "Scarecrow")
             {
-                Debug.Log("a");
                 fear = true;
+                puluAudioSource.PlayOneShot(puluFearAudio);
             }
         }
 
-
+        
     }
 }

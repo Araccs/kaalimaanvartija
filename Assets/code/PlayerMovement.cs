@@ -11,6 +11,9 @@ namespace kaalimaanvartija
         private Rigidbody2D rb;
         public Animator animator;
 
+        public AudioClip playerAudio;
+        AudioSource playerAudioSource;
+
         [SerializeField] private float speed = 10f;
 
 
@@ -19,22 +22,27 @@ namespace kaalimaanvartija
             playerInput = new NewPlayerInputs();
             rb = GetComponent<Rigidbody2D>();
             animator= GetComponent<Animator>();
+            
         }
 
         private void OnEnable()
         {
             playerInput.Enable();
+            
         }
 
         private void OnDisable()
         {
             playerInput.Disable();
+            
         }
 
         // Start is called before the first frame update
         void Start()
         {
-        
+            playerAudioSource = GetComponent<AudioSource> ();
+            playerAudioSource.enabled = true;
+            
         }
 
         // Update is called once per frame
@@ -46,7 +54,11 @@ namespace kaalimaanvartija
             animator.SetFloat("Vertical", moveInput.y);
             animator.SetFloat("Speed", moveInput.sqrMagnitude);
 
-
+            if (rb.velocity.magnitude >= 1 && playerAudioSource.isPlaying == false)
+            {
+                playerAudioSource.PlayOneShot(playerAudio, 1.0f);
+            }
+            
         }
     }
 }

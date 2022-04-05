@@ -6731,6 +6731,10 @@ PrefabInstance:
       propertyPath: healtBar
       value: 
       objectReference: {fileID: 1005908935}
+    - target: {fileID: 8163082244936720123, guid: 19bbb0e07e28c564387f304f3e3896f2, type: 3}
+      propertyPath: puluFlyAudio
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8383639679622109650, guid: 19bbb0e07e28c564387f304f3e3896f2, type: 3}
       propertyPath: healtBar
       value: 

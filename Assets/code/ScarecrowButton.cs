@@ -18,6 +18,10 @@ namespace kaalimaanvartija
         [SerializeField]
         private int timeodota;
 
+        AudioSource scarecrowAudioSource;
+        public AudioClip scarecrowAudioSpawn;
+        public AudioClip scarecrowAudioDestroy;
+
         public void TaskOnClick()
         {
             player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -26,9 +30,11 @@ namespace kaalimaanvartija
             if (spawned == false)
             {
                 newScarecrow = Instantiate (Scarecrow, player.transform.position, Quaternion.identity);
+                scarecrowAudioSource.PlayOneShot(scarecrowAudioSpawn);
                 spawned = true;
                 ScarecrowNappi.interactable = false;
                 StartCoroutine (ScarecrowTimer());
+                
             }   
         }
 
@@ -37,6 +43,7 @@ namespace kaalimaanvartija
             
             yield return new WaitForSeconds(time);
             Destroy (newScarecrow);
+            scarecrowAudioSource.PlayOneShot(scarecrowAudioDestroy);
             spawned = false;
             yield return new WaitForSeconds(timeodota);
             ScarecrowNappi.interactable = true;
