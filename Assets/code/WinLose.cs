@@ -12,7 +12,7 @@ namespace kaalimaanvartija
 
         void Update()
         {
-            Debug.Log(healtBar.value);
+            
             if (healtBar.value <= 0){
                 LoseLevel();
             }
@@ -20,15 +20,7 @@ namespace kaalimaanvartija
 
         }
 
-        public void WinLevel()
-        {
-            if (!gameEnded)
-            {
-                Debug.Log("You win");
-                gameEnded = true;
-                PauseGame();
-            }
-        }
+    
 
         public void LoseLevel()
         {

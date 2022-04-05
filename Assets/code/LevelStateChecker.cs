@@ -7,11 +7,11 @@ namespace kaalimaanvartija
 {
     public class LevelStateChecker : MonoBehaviour
     {
-        public static bool level2open = false;
-        public static bool level3open = false;
-        public static bool level4open = false;
-        public static bool level5open = false;
-        public static bool level6open = false;
+        public static int level2open = 0;
+        public static int level3open = 0;
+        public static int level4open = 0;
+        public static int level5open = 0;
+        public static int level6open = 0;
 
         public GameObject levelComplete;
 
@@ -34,17 +34,18 @@ namespace kaalimaanvartija
             {
                 if(sceneName == "Level1")
                 {
-                    level2open = true;
+                    level2open = 1;
                     if (once == false)
                     {
                     once = true;
                     Instantiate(levelComplete, new Vector3(0, 0, 0), Quaternion.identity);
+                    SaveGame();
                     }
                 }
 
                 if (sceneName == "Level2")
                 {
-                    level3open = true;
+                    level3open = 1;
                     if (once == false)
                     {
                         once = true;
@@ -54,7 +55,7 @@ namespace kaalimaanvartija
 
                 if (sceneName == "Level3")
                 {
-                    level4open = true;
+                    level4open = 1;
                     if (once == false)
                     {
                         once = true;
@@ -64,7 +65,7 @@ namespace kaalimaanvartija
 
                 if (sceneName == "Level4")
                 {
-                    level5open = true;
+                    level5open = 1;
                     if (once == false)
                     {
                         once = true;
@@ -74,7 +75,7 @@ namespace kaalimaanvartija
 
                 if (sceneName == "Level5")
                 {
-                    level6open = true;
+                    level6open = 1;
                     if (once == false)
                     {
                         once = true;
@@ -85,7 +86,16 @@ namespace kaalimaanvartija
             }
         }
 
-
+        public void SaveGame() 
+        {
+            PlayerPrefs.SetInt("level2", level2open);
+            PlayerPrefs.SetInt("level3", level3open);
+            PlayerPrefs.SetInt("level4", level4open);
+            PlayerPrefs.SetInt("level5", level5open);
+            PlayerPrefs.SetInt("level6", level6open);
+            Debug.Log("Game data saved!");
+            
+        }
 
     
 
