@@ -9,6 +9,9 @@ namespace kaalimaanvartija
     {
         private bool gameEnded;
         public Slider healtBar;
+        private GameObject loseLevelCanvas;
+        public GameObject LoseLevelCanvas;
+
 
         void Update()
         {
@@ -27,6 +30,8 @@ namespace kaalimaanvartija
             if (!gameEnded)
             {
                 Debug.Log("you lose");
+                loseLevelCanvas = Instantiate(LoseLevelCanvas, new Vector3(0, 0, 0), Quaternion.identity);
+                loseLevelCanvas.SetActive(true);
                 gameEnded = true;
                 PauseGame();
             }

@@ -85,6 +85,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 6974f2c1399dee84aa8f23e3eb86de4c, type: 3}
   - {fileID: 21300000, guid: 58d5bdc116a6c94488cfa430d89e5ff1, type: 3}
   - {fileID: 21300000, guid: 225d1be18aa55184d9f19845d2066a13, type: 3}
+  - {fileID: 21300000, guid: f2a17ee1d0eeb2740814cd6e17e2d667, type: 3}
   - {fileID: 21300000, guid: d588ccf1648bff14080344018fd29c2f, type: 3}
   - {fileID: 21300000, guid: e19dccf156f175e4d8ae61a6fb938895, type: 3}
   - {fileID: 21300000, guid: 0c60d702512f0b446bb09edb4bcecc3b, type: 3}
@@ -122,6 +123,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: b6ec4c777b76ce14a9c0d58670cf45d0, type: 3}
   - {fileID: 21300000, guid: bd78e6c7c5b579541b8a307e56e6627c, type: 3}
   - {fileID: 21300000, guid: 156afef7244f28241a823ab558d79346, type: 3}
+  - {fileID: 21300000, guid: d93d0808efd509c4dbcc52871bff13c2, type: 3}
   - {fileID: 21300000, guid: d9bb2c086a3850342ba4e164519ae1a8, type: 3}
   - {fileID: 21300000, guid: 216fe238d0e8a9a4cb0a364020ea6d38, type: 3}
   - {fileID: 21300000, guid: a54e9c78e39e0184a8d25b92fcce4c57, type: 3}
@@ -145,6 +147,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 9ffcab9bda8bfcf45a8e7792ce56512d, type: 3}
   - {fileID: 21300000, guid: be67eccb76f6db240864a8cf21f45958, type: 3}
   - {fileID: 21300000, guid: 804275ebe0834644a85ec452cd7fe170, type: 3}
+  - {fileID: 21300000, guid: f8e0d3fbe5f5f354a8a59b7ca872827a, type: 3}
   - {fileID: 21300000, guid: 1e75a7fbcdb11074a8d16f64de9cbf9a, type: 3}
   - {fileID: 21300000, guid: 5cad094c1173fbc42a9913829826dbbd, type: 3}
   - {fileID: 21300000, guid: 564c125c29607ea4ba73de4404cf58eb, type: 3}
@@ -159,6 +162,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 803e7c4e19fb77343a21c7fdf3edefec, type: 3}
   - {fileID: 21300000, guid: 2eafce4e861336d48ac5fbdd3d15b680, type: 3}
   - {fileID: 21300000, guid: 0903a06e7873b1042ba9244c7385d84d, type: 3}
+  - {fileID: 21300000, guid: 81f20f9efad8c3942b093cce088af575, type: 3}
   - {fileID: 21300000, guid: 279697be6e762dd43a311238433a2189, type: 3}
   - {fileID: 21300000, guid: 781c87ce4288cf248ba3c819d471667a, type: 3}
   - {fileID: 21300000, guid: a447c7ce703ea4c458a0438ed36dab2a, type: 3}
@@ -201,6 +205,7 @@ SpriteAtlas:
   - sivuprofiili_skaalattu
   - etuwalk2
   - button1_green
+  - eggplantV2
   - Takakulma_oikea
   - Potato
   - logo
@@ -238,6 +243,7 @@ SpriteAtlas:
   - Tomatoes
   - "Pel\xE4tin"
   - joystick
+  - door
   - Peas
   - puu2
   - kukkapenkki_left_v2
@@ -261,6 +267,7 @@ SpriteAtlas:
   - pilvi
   - sivuwalk_oikealle
   - Kulmapala_v2
+  - parsnipV2 (1)
   - kukkapenkki_middle
   - etuwalk
   - heatwave
@@ -275,6 +282,7 @@ SpriteAtlas:
   - Health_hp
   - pulu_flying_01_right
   - Chili
+  - carrotV2
   - Watering_can_button
   - puu
   - takaproffawalk

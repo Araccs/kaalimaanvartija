@@ -14,14 +14,12 @@ namespace kaalimaanvartija
         private GameObject level3;
         private GameObject level4;
         private GameObject level5;
-        private GameObject level6;
 
         // Buttonien tekstikomponentit
         private GameObject level2_tmp;
         private GameObject level3_tmp;
         private GameObject level4_tmp;
         private GameObject level5_tmp;
-        private GameObject level6_tmp;
 
 
 
@@ -32,7 +30,7 @@ namespace kaalimaanvartija
             level3 = GameObject.Find("Level_3");
             level4 = GameObject.Find("Level_4");
             level5 = GameObject.Find("Level_5");
-            level6 = GameObject.Find("Level_6");
+
 
             level2_tmp = GameObject.Find("Level_2_TMP");
             level2_tmp.SetActive(false);
@@ -45,9 +43,6 @@ namespace kaalimaanvartija
 
             level5_tmp = GameObject.Find("Level_5_TMP");
             level5_tmp.SetActive(false);
-
-            level6_tmp = GameObject.Find("Level_6_TMP");
-            level6_tmp.SetActive(false);
 
         }
 
@@ -71,20 +66,15 @@ namespace kaalimaanvartija
             {
                 level4.GetComponent<Image>().sprite = newImg;
                 level4.GetComponent<Button>().interactable = true;
-                level3_tmp.SetActive(true);
+                level4_tmp.SetActive(true);
             }
         if (LevelStateChecker.level5open == 1)
             {
                 level5.GetComponent<Image>().sprite = newImg;
                 level5.GetComponent<Button>().interactable = true;
-                level3_tmp.SetActive(true);
+                level5_tmp.SetActive(true);
             }
-        if (LevelStateChecker.level6open == 1)
-            {
-                level6.GetComponent<Image>().sprite = newImg;
-                level6.GetComponent<Button>().interactable = true;
-                level3_tmp.SetActive(true);
-            }
+
         }
 
 

@@ -11,5 +11,12 @@ namespace kaalimaanvartija
         {
             SceneManager.LoadScene(level);
         }
+
+        public void LoadCurrentSceneButton(string level)
+        {
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.name);
+        }
+
     }
 }
