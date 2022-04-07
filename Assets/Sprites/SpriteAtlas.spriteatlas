@@ -93,6 +93,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 84b181127e0e49c4f847d00cc9fa11e5, type: 3}
   - {fileID: 21300000, guid: 2de19f1210a978e419fe1058726c66f0, type: 3}
   - {fileID: 21300000, guid: 0e568022c3d4e2a4e97ffe4cd461dcda, type: 3}
+  - {fileID: 21300000, guid: f855042265dfe514b84f8b90e4168654, type: 3}
   - {fileID: 21300000, guid: 0a95a6421dbc20c4da1c6079bc1778b0, type: 3}
   - {fileID: 21300000, guid: 126fe7a2d1fbc074bb46ccfba8c64050, type: 3}
   - {fileID: 21300000, guid: f88587b22c6334c49ac8da845d0efe4d, type: 3}
@@ -126,7 +127,6 @@ SpriteAtlas:
   - {fileID: 21300000, guid: d93d0808efd509c4dbcc52871bff13c2, type: 3}
   - {fileID: 21300000, guid: d9bb2c086a3850342ba4e164519ae1a8, type: 3}
   - {fileID: 21300000, guid: 216fe238d0e8a9a4cb0a364020ea6d38, type: 3}
-  - {fileID: 21300000, guid: ebb92058227a3d74d9b1595f78ece196, type: 3}
   - {fileID: 21300000, guid: a54e9c78e39e0184a8d25b92fcce4c57, type: 3}
   - {fileID: 21300000, guid: b391b7a8a819f0249bb3781fb3652557, type: 3}
   - {fileID: 21300000, guid: bc797eb8dde7065468de26a69b3998f4, type: 3}
@@ -215,6 +215,7 @@ SpriteAtlas:
   - puhekuplaV2
   - Kaali
   - level_button_empty
+  - Nuoli2
   - pulu_flying_03
   - pulu1
   - parsnipV2
@@ -248,7 +249,6 @@ SpriteAtlas:
   - door
   - Peas
   - puu2
-  - Nuoli
   - kukkapenkki_left_v2
   - Carrot
   - LattiatiilitV2

@@ -8,6 +8,10 @@ namespace kaalimaanvartija
     {
         AudioSource audioSource;
         public float volume;
+        public AudioClip button_1;
+        public AudioClip button_2;
+        public AudioClip button_3;
+        AudioClip audioClip;
         // Start is called before the first frame update
         void Awake()
         {
@@ -15,9 +19,25 @@ namespace kaalimaanvartija
         }
 
         // Update is called once per frame
-        void OnClick()
+        public void OnClick(int buttonSound)
         {
-            audioSource.PlayOneShot(audioSource.clip,volume);
+            if(buttonSound == 1)
+            {
+                audioSource.PlayOneShot(button_1,volume);
+            }
+
+            if (buttonSound == 2)
+            {
+                audioSource.PlayOneShot(button_2, volume);
+            }
+
+            if (buttonSound == 3)
+            {
+                audioSource.PlayOneShot(button_3, volume);
+            }
+
+
+
         }
     }
 }
