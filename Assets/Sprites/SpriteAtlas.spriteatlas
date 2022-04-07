@@ -126,6 +126,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: d93d0808efd509c4dbcc52871bff13c2, type: 3}
   - {fileID: 21300000, guid: d9bb2c086a3850342ba4e164519ae1a8, type: 3}
   - {fileID: 21300000, guid: 216fe238d0e8a9a4cb0a364020ea6d38, type: 3}
+  - {fileID: 21300000, guid: ebb92058227a3d74d9b1595f78ece196, type: 3}
   - {fileID: 21300000, guid: a54e9c78e39e0184a8d25b92fcce4c57, type: 3}
   - {fileID: 21300000, guid: b391b7a8a819f0249bb3781fb3652557, type: 3}
   - {fileID: 21300000, guid: bc797eb8dde7065468de26a69b3998f4, type: 3}
@@ -135,6 +136,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 1266318967063e449ae4f62170728b21, type: 3}
   - {fileID: 21300000, guid: 2bda79899e48051459e581d7e6018374, type: 3}
   - {fileID: 21300000, guid: b0cba7a99cc1d9c49bf73d78616f3bc3, type: 3}
+  - {fileID: 21300000, guid: 29539b1a2fb80f141a568b492e2b57dc, type: 3}
   - {fileID: 21300000, guid: 604ccd2a423fde348a6084bac867fcdc, type: 3}
   - {fileID: 21300000, guid: 8afe449ac9fe6c5419337246c14f5766, type: 3}
   - {fileID: 21300000, guid: 2f6c969ae1ea28d44be5efec2fb32f73, type: 3}
@@ -246,6 +248,7 @@ SpriteAtlas:
   - door
   - Peas
   - puu2
+  - Nuoli
   - kukkapenkki_left_v2
   - Carrot
   - LattiatiilitV2
@@ -255,6 +258,7 @@ SpriteAtlas:
   - "Sein\xE4V2"
   - kukkapenkki_right
   - Untitled-1
+  - infobox
   - puhekupla
   - pulu_flying_03_right
   - button1_yellow
