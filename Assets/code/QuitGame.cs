@@ -9,7 +9,16 @@ namespace kaalimaanvartija
     
         public void OnClick()
         {
+            StartCoroutine(Wait());
+        }
+
+        IEnumerator Wait()
+        {
+            yield return new WaitForSeconds(0.5f);
             Application.Quit();
         }
+
+
+
     }
 }

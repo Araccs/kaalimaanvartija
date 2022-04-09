@@ -44,10 +44,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c6209c98368ae640a6da88c0acf5583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
   volume: 1
-  button_1: {fileID: 8300000, guid: 7c468002fbe850045b782feffb0f5e52, type: 3}
-  button_2: {fileID: 8300000, guid: c9c2cc6ec767a8a4fb7e4989141173e7, type: 3}
-  button_3: {fileID: 8300000, guid: abfb561370c974e47943f804466443f3, type: 3}
+  button_1: {fileID: 8300000, guid: d2fb4c1ba85536943b441fb0c6815b24, type: 3}
+  button_2: {fileID: 8300000, guid: 5b2f15284a48e9b4a8cb5e6700b0f6b3, type: 3}
+  button_3: {fileID: 8300000, guid: f4392143ebe979b4aa151432687d17a6, type: 3}
 --- !u!82 &5219990518411540261
 AudioSource:
   m_ObjectHideFlags: 0

@@ -11,12 +11,19 @@ namespace kaalimaanvartija
         public Slider healtBar;
         private GameObject loseLevelCanvas;
         public GameObject LoseLevelCanvas;
+        private GameObject timerObject;
+        Timer timer;
 
+        void Awake()
+        {
+            timerObject = GameObject.Find("Timer");
+            timer = timerObject.GetComponent<Timer>();
+        }
 
         void Update()
         {
             
-            if (healtBar.value <= 0){
+            if (healtBar.value <= 0 && timer.levelFinished == false){
                 LoseLevel();
             }
 

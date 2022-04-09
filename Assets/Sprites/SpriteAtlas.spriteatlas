@@ -67,6 +67,7 @@ SpriteAtlas:
   - {fileID: -8474765744605300690, guid: b717f9c04f0bcaa4f99c9fdac2bc5742, type: 3}
   - {fileID: -6891068503090770055, guid: b717f9c04f0bcaa4f99c9fdac2bc5742, type: 3}
   - {fileID: 21300000, guid: e0ff03d07b242f047b076b20475429eb, type: 3}
+  - {fileID: 21300000, guid: 8785f7e006bdb18499798734ce138553, type: 3}
   - {fileID: 21300000, guid: 72ba2a118e5f52749a3594662f759246, type: 3}
   - {fileID: 21300000, guid: ebfab461173ed104db2ebb3a0f7fc80f, type: 3}
   - {fileID: 21300000, guid: 87607681652bd004faedd64018c8fee2, type: 3}
@@ -100,10 +101,12 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 3e7691e200890b149930a5dc06ebc508, type: 3}
   - {fileID: 21300000, guid: 259be90345402274ea803d6b4c83b9d7, type: 3}
   - {fileID: 21300000, guid: 285dec73a2ee78a4da316ab2cfb9aa1e, type: 3}
+  - {fileID: 21300000, guid: 4b77c4f312690d64cb9e9dda1fb7fd74, type: 3}
   - {fileID: 21300000, guid: 7b8d11848f1dbd246a25d618c1926bf4, type: 3}
   - {fileID: 21300000, guid: 98aedab4cd2d33748938aee92e6acfb3, type: 3}
   - {fileID: 21300000, guid: 9ad470d4b176e9a4fb98aae1f8356a7b, type: 3}
   - {fileID: 21300000, guid: 714260e447f87e54893da7b0412ef4bd, type: 3}
+  - {fileID: 21300000, guid: 543886e4b6002a0458423578f68eacb5, type: 3}
   - {fileID: 21300000, guid: 4ea6d0150e301d7488cafc19b4a7dc1a, type: 3}
   - {fileID: 21300000, guid: b9b28f15673719149a016b34c06b1c41, type: 3}
   - {fileID: 21300000, guid: 054c1c354d111314db92b7d2c301d1fe, type: 3}
@@ -114,6 +117,7 @@ SpriteAtlas:
   - {fileID: -1368899909649150793, guid: ef2dead5d779a524d8077cf6fb392026, type: 3}
   - {fileID: -2271862466029872859, guid: ef2dead5d779a524d8077cf6fb392026, type: 3}
   - {fileID: -1395561467010985548, guid: ef2dead5d779a524d8077cf6fb392026, type: 3}
+  - {fileID: 21300000, guid: 4915a2f588fa4bd40aafc972e7bf038f, type: 3}
   - {fileID: 21300000, guid: 336ce3367f82acf489651a7b11c7cba8, type: 3}
   - {fileID: 21300000, guid: eb850f3650ff90341a31ce1d0aaebcda, type: 3}
   - {fileID: 21300000, guid: efcdf2d65ec8afe488464a7c1b2034f6, type: 3}
@@ -130,6 +134,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: a54e9c78e39e0184a8d25b92fcce4c57, type: 3}
   - {fileID: 21300000, guid: b391b7a8a819f0249bb3781fb3652557, type: 3}
   - {fileID: 21300000, guid: bc797eb8dde7065468de26a69b3998f4, type: 3}
+  - {fileID: 21300000, guid: a8f928e8decae104da1e3b37f22d49ba, type: 3}
   - {fileID: 21300000, guid: e373d539c9620854e84102648bc97975, type: 3}
   - {fileID: 21300000, guid: 6d69b06992698a94db0952a8f664403d, type: 3}
   - {fileID: 21300000, guid: fc304e69d0f839440aeb1991e5299e52, type: 3}
@@ -189,6 +194,7 @@ SpriteAtlas:
   - walls_pink_0
   - walls_pink_1
   - Eggplant
+  - volumeButton
   - Tomaatti
   - takaproffawalk2
   - sivuwalk2
@@ -222,10 +228,12 @@ SpriteAtlas:
   - Ruoho1
   - kukkapenkki_left
   - pulu_idle_01
+  - leftarrow
   - Jatkopala_vasen
   - SIBULI
   - Health
   - kastelukannu
+  - button1_orange
   - speechbubble
   - Pelihahmo 3.2
   - "vasen_sein\xE4"
@@ -236,6 +244,7 @@ SpriteAtlas:
   - tamperetalo2_3
   - tamperetalo2_0
   - tamperetalo2_1
+  - infobox2
   - kukkapenkki_right_v2
   - "oikeasein\xE4_v2"
   - window
@@ -252,6 +261,7 @@ SpriteAtlas:
   - kukkapenkki_left_v2
   - Carrot
   - LattiatiilitV2
+  - volumeBG
   - button1_red
   - tile1
   - Kulmapala_vasen

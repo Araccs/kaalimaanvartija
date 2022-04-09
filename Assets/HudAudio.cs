@@ -4,9 +4,10 @@ using UnityEngine;
 
 namespace kaalimaanvartija
 {
-    public class ButtonSoundPlayer : MonoBehaviour
+    public class HudAudio : MonoBehaviour
     {
-        public AudioSource audioSource;
+
+        AudioSource audioSource;
         public float volume;
         public AudioClip button_1;
         public AudioClip button_2;
@@ -21,9 +22,9 @@ namespace kaalimaanvartija
         // Update is called once per frame
         public void OnClick(int buttonSound)
         {
-            if(buttonSound == 1)
+            if (buttonSound == 1)
             {
-                audioSource.PlayOneShot(button_1,volume);
+                audioSource.PlayOneShot(button_1, volume);
             }
 
             if (buttonSound == 2)
@@ -35,9 +36,6 @@ namespace kaalimaanvartija
             {
                 audioSource.PlayOneShot(button_3, volume);
             }
-
-
-
         }
     }
 }

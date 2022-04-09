@@ -7,6 +7,8 @@ namespace kaalimaanvartija
     public class CanvasLoader : MonoBehaviour
     {
         public GameObject canvas;
+        private GameObject buttonSounds;
+        private ButtonSoundPlayer bsp;
         // Start is called before the first frame update
         public void LoadCanvas ()
         {
@@ -17,6 +19,9 @@ namespace kaalimaanvartija
         public void DestroyCanvas()
         {
             canvas.SetActive(false);
+            buttonSounds = GameObject.Find("ButtonSounds");
+            bsp = buttonSounds.GetComponent<ButtonSoundPlayer>();
+            bsp.OnClick(2);
             Destroy(canvas);
         }
     }

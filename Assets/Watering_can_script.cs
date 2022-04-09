@@ -22,6 +22,9 @@ namespace kaalimaanvartija
         public GameObject waterObject;
         private GameObject newWaterObject;
 
+        private GameObject playerHud;
+        private HudAudio hudAudio;
+
 
         void Awake()
         {
@@ -42,6 +45,12 @@ namespace kaalimaanvartija
 
                 healthslider.value += healthBoost;
                 used = true;
+
+                playerHud = GameObject.Find("PlayerHUD");
+                hudAudio = playerHud.GetComponent<HudAudio>();
+                hudAudio.OnClick(1);
+
+
                 wateringCanButton.interactable = false;
                 Destroy(newWaterObject);
                 StartCoroutine(WaterCanTimer());
