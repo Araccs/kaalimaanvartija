@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5219990518411540262}
   - component: {fileID: 5219990518411540260}
   - component: {fileID: 5219990518411540261}
+  - component: {fileID: 5219990518911366738}
   m_Layer: 0
   m_Name: ButtonSounds
   m_TagString: Untagged
@@ -58,7 +59,7 @@ AudioSource:
   m_GameObject: {fileID: 5219990518411540259}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 4203728975915578498, guid: f4b96cfae7a92ee42908b55c8c304ad1, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -145,3 +146,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5219990518911366738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5219990518411540259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 836a7a39a64101f4a9633af77e451647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mixer: {fileID: 24100000, guid: f4b96cfae7a92ee42908b55c8c304ad1, type: 2}

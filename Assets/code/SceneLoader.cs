@@ -29,6 +29,19 @@ namespace kaalimaanvartija
             SceneManager.LoadScene(level);
         }
 
+        public void loadMainMenu()
+        {
+            string level = "MainMenu";
+            buttonSounds = GameObject.Find("ButtonSounds");
+            bsp = buttonSounds.GetComponent<ButtonSoundPlayer>();
+            duration = bsp.button_2.length / 2;
+            bsp.OnClick(2);
+            StartCoroutine(Wait(level));
+
+        }
+
+
+
 
     }
 }

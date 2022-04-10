@@ -821,6 +821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8c7021236cb5644dac9eda59f60e65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadGame: {fileID: 0}
   levelComplete: {fileID: 8887062401222778858, guid: b02d2d7afd29a9a4682c9bd351478a18, type: 3}
   timer: {fileID: 1718038800}
 --- !u!4 &218853826
@@ -4678,7 +4679,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8665310312705670494, guid: f51ab3a27fa3a1646af2310181aeaba3, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8665310312705670494, guid: f51ab3a27fa3a1646af2310181aeaba3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4724,6 +4725,10 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 59196c8f78b57cb43bd7af60ec7de4bc, type: 3}
+    - target: {fileID: 8665310312705670495, guid: f51ab3a27fa3a1646af2310181aeaba3, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -5393318702597000068, guid: f4b96cfae7a92ee42908b55c8c304ad1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f51ab3a27fa3a1646af2310181aeaba3, type: 3}
 --- !u!1 &1112779294
@@ -6234,7 +6239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4935780977451243763, guid: 27b3d132e5779ab43be2d0f6ae1af3e4, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4935780977451243763, guid: 27b3d132e5779ab43be2d0f6ae1af3e4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7936,6 +7941,7 @@ GameObject:
   - component: {fileID: 1830184807}
   - component: {fileID: 1830184806}
   - component: {fileID: 1830184805}
+  - component: {fileID: 1830184808}
   m_Layer: 0
   m_Name: ButtonSounds
   m_TagString: Untagged
@@ -7952,7 +7958,7 @@ AudioSource:
   m_GameObject: {fileID: 1830184804}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 4203728975915578498, guid: f4b96cfae7a92ee42908b55c8c304ad1, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -8051,10 +8057,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c6209c98368ae640a6da88c0acf5583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  volume: 0
-  button_1: {fileID: 0}
-  button_2: {fileID: 0}
-  button_3: {fileID: 0}
+  audioSource: {fileID: 0}
+  volume: 1
+  button_1: {fileID: 8300000, guid: d2fb4c1ba85536943b441fb0c6815b24, type: 3}
+  button_2: {fileID: 8300000, guid: 5b2f15284a48e9b4a8cb5e6700b0f6b3, type: 3}
+  button_3: {fileID: 8300000, guid: f4392143ebe979b4aa151432687d17a6, type: 3}
 --- !u!4 &1830184807
 Transform:
   m_ObjectHideFlags: 0
@@ -8067,8 +8074,21 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1830184808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830184804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 836a7a39a64101f4a9633af77e451647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mixer: {fileID: 24100000, guid: f4b96cfae7a92ee42908b55c8c304ad1, type: 2}
 --- !u!1001 &1909272269
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8915,6 +8935,14 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1811170902, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1830184806}
+    - target: {fileID: 1811170902, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: OnClick
+      objectReference: {fileID: 0}
     - target: {fileID: 881590811100709820, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
       propertyPath: m_text
       value: "Greetings! I\u2019m the Mayor of Tampere.\r\n\r\nYour job is to work
@@ -8938,6 +8966,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1252471406}
+    - target: {fileID: 8554934439850971095, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1830184806}
+    - target: {fileID: 8554934439850971095, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: OnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8554934439850971096, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8554934440330527880, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -8948,7 +8988,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8554934440330527880, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8554934440330527880, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
       propertyPath: m_AnchorMax.x

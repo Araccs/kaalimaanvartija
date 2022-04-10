@@ -149,7 +149,7 @@ AudioSource:
   m_GameObject: {fileID: 77460609}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -5393318702597000068, guid: f4b96cfae7a92ee42908b55c8c304ad1, type: 2}
   m_audioClip: {fileID: 8300000, guid: 16e349f33e02d734c9a9c2ffe81fca53, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
@@ -427,7 +427,6 @@ GameObject:
   - component: {fileID: 394582162}
   - component: {fileID: 394582161}
   - component: {fileID: 394582160}
-  - component: {fileID: 394582163}
   m_Layer: 5
   m_Name: Main_Menu_Button
   m_TagString: Untagged
@@ -499,26 +498,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 394582163}
-        m_TargetAssemblyTypeName: kaalimaanvartija.ButtonSceneLoader, Assembly-CSharp
-        m_MethodName: LoadSceneButton
-        m_Mode: 5
+      - m_Target: {fileID: 1111450068}
+        m_TargetAssemblyTypeName: kaalimaanvartija.SceneLoader, Assembly-CSharp
+        m_MethodName: loadMainMenu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: MainMenu
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1302028910}
-        m_TargetAssemblyTypeName: kaalimaanvartija.ButtonSoundPlayer, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -561,18 +548,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 394582158}
   m_CullTransparentMesh: 1
---- !u!114 &394582163
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 394582158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e97f3b3a2b8ad7d4c91f512d4bf9d814, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &489180032
 GameObject:
   m_ObjectHideFlags: 0
@@ -655,7 +630,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 489180035}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1111450068}
+        m_TargetAssemblyTypeName: kaalimaanvartija.SceneLoader, Assembly-CSharp
+        m_MethodName: loadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &489180035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -694,63 +681,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 489180032}
   m_CullTransparentMesh: 1
---- !u!1001 &547375424
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5219990518411540259, guid: aec625caa1905bf47952071a76560a86, type: 3}
-      propertyPath: m_Name
-      value: ButtonSounds
-      objectReference: {fileID: 0}
-    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: aec625caa1905bf47952071a76560a86, type: 3}
 --- !u!1 &549106043
 GameObject:
   m_ObjectHideFlags: 0
@@ -6266,7 +6196,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1302028910}
+      - m_Target: {fileID: 1136881258}
         m_TargetAssemblyTypeName: kaalimaanvartija.ButtonSoundPlayer, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 3
@@ -6492,8 +6422,19 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1136881258 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5219990518411540260, guid: aec625caa1905bf47952071a76560a86, type: 3}
+  m_PrefabInstance: {fileID: 1511489785}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c6209c98368ae640a6da88c0acf5583, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1182328199
 GameObject:
   m_ObjectHideFlags: 0
@@ -6703,17 +6644,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1302028910 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5219990518411540260, guid: aec625caa1905bf47952071a76560a86, type: 3}
-  m_PrefabInstance: {fileID: 547375424}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c6209c98368ae640a6da88c0acf5583, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1328900808
 GameObject:
   m_ObjectHideFlags: 0
@@ -6848,6 +6778,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1328900808}
   m_CullTransparentMesh: 1
+--- !u!1001 &1511489785
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5219990518411540259, guid: aec625caa1905bf47952071a76560a86, type: 3}
+      propertyPath: m_Name
+      value: ButtonSounds
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219990518411540262, guid: aec625caa1905bf47952071a76560a86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aec625caa1905bf47952071a76560a86, type: 3}
 --- !u!1 &1760311852
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 220575003}
   - component: {fileID: 220575002}
   - component: {fileID: 220575001}
-  - component: {fileID: 1341184634627176151}
+  - component: {fileID: 1302031015}
   m_Layer: 5
   m_Name: Quit
   m_TagString: Untagged
@@ -122,9 +122,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1341184634627176151}
-        m_TargetAssemblyTypeName: kaalimaanvartija.ButtonSceneLoader, Assembly-CSharp
-        m_MethodName: LoadSceneButton
+      - m_Target: {fileID: 1302031015}
+        m_TargetAssemblyTypeName: kaalimaanvartija.SceneLoader, Assembly-CSharp
+        m_MethodName: loadScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -134,19 +134,7 @@ MonoBehaviour:
           m_StringArgument: Level_Menu
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: kaalimaanvartija.ButtonSoundPlayer, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1341184634627176151
+--- !u!114 &1302031015
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -155,9 +143,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 220574999}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e97f3b3a2b8ad7d4c91f512d4bf9d814, type: 3}
+  m_Script: {fileID: 11500000, guid: 7295fc8aa654f064ab22d6382a5258d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: 2
 --- !u!1 &693734553
 GameObject:
   m_ObjectHideFlags: 0
@@ -1136,7 +1125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d677f1681015749b15c436eec6d880, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MovementRange: 25
+  m_MovementRange: 15
   m_ControlPath: <AndroidJoystick>/stick
 --- !u!1 &1880142849
 GameObject:
@@ -1701,9 +1690,9 @@ AudioSource:
   m_GameObject: {fileID: 4935780977451243760}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 4203728975915578498, guid: f4b96cfae7a92ee42908b55c8c304ad1, type: 2}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

@@ -18,5 +18,6 @@ namespace kaalimaanvartija
             SceneManager.LoadScene(scene.name);
         }
 
+
     }
 }
