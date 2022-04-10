@@ -7,11 +7,14 @@ namespace kaalimaanvartija
 {
     public class LevelStateChecker : MonoBehaviour
     {
-        public static int level2open = 0;
-        public static int level3open = 0;
-        public static int level4open = 0;
-        public static int level5open = 0;
-        public static int level6open = 0;
+        public Loadgame loadGame;
+
+
+        public static int level2open = Loadgame.l2;
+        public static int level3open = Loadgame.l3;
+        public static int level4open = Loadgame.l4;
+        public static int level5open = Loadgame.l5;
+        public static int level6open = Loadgame.l6;
 
         public GameObject levelComplete;
 
@@ -21,8 +24,15 @@ namespace kaalimaanvartija
 
         private Scene scene;
 
+        // void Start()
+        // {
+        //     loadGame();
+        // }
+
+
         void Awake()
         {
+            
             scene = SceneManager.GetActiveScene();
             sceneName = scene.name;
             timer = GameObject.Find("Timer");
@@ -50,6 +60,7 @@ namespace kaalimaanvartija
                     {
                         once = true;
                         Instantiate(levelComplete, new Vector3(0, 0, 0), Quaternion.identity);
+                        SaveGame();
                     }
                 }
 
@@ -60,6 +71,7 @@ namespace kaalimaanvartija
                     {
                         once = true;
                         Instantiate(levelComplete, new Vector3(0, 0, 0), Quaternion.identity);
+                        SaveGame();
                     }
                 }
 
@@ -70,6 +82,7 @@ namespace kaalimaanvartija
                     {
                         once = true;
                         Instantiate(levelComplete, new Vector3(0, 0, 0), Quaternion.identity);
+                        SaveGame();
                     }
                 }
 
@@ -80,6 +93,7 @@ namespace kaalimaanvartija
                     {
                         once = true;
                         Instantiate(levelComplete, new Vector3(0, 0, 0), Quaternion.identity);
+                        SaveGame();
                     }
                 }
 
@@ -95,7 +109,10 @@ namespace kaalimaanvartija
             PlayerPrefs.SetInt("level6", level6open);
             Debug.Log("Game data saved!");
             
+            
         }
+
+       
 
     
 

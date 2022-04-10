@@ -21,10 +21,13 @@ namespace kaalimaanvartija
         private GameObject level4_tmp;
         private GameObject level5_tmp;
 
+        
+
 
 
         void Awake()
         {
+            
             //assignoidaan oikeat objektit
             level2 = GameObject.Find("Level_2");
             level3 = GameObject.Find("Level_3");
@@ -77,6 +80,7 @@ namespace kaalimaanvartija
 
         }
 
+        
 
 
     }

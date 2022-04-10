@@ -25,6 +25,8 @@ namespace kaalimaanvartija
         public AudioClip puluFearAudio;
         public AudioClip puluDamageAudio;
         public bool puluFearPlayed = false;
+        [SerializeField]
+        int puludmg = 1;
         
         void Start()
         {
@@ -92,7 +94,7 @@ namespace kaalimaanvartija
         IEnumerator waitCoroutine() {
             takingDamage = true;
             yield return new WaitForSeconds(2);
-            TakeDamage(1);
+            TakeDamage(puludmg);
             takingDamage = false;
             
         }
