@@ -293,6 +293,7 @@ GameObject:
   - component: {fileID: 1040509351}
   - component: {fileID: 1040509350}
   - component: {fileID: 1040509349}
+  - component: {fileID: 1100956225}
   m_Layer: 5
   m_Name: Options
   m_TagString: Untagged
@@ -401,7 +402,32 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1040509350}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1100956225}
+        m_TargetAssemblyTypeName: kaalimaanvartija.GameOptionsScript, Assembly-CSharp
+        m_MethodName: OpenOptions
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1100956225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040509347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 930078e294edce54cb3386fdb8248a56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 4653935142595084176, guid: db3498a6d7438b841ad7a9024b173911, type: 3}
 --- !u!1 &1102981580
 GameObject:
   m_ObjectHideFlags: 0

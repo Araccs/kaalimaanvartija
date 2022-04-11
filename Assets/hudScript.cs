@@ -4,13 +4,14 @@ using UnityEngine;
 
 namespace kaalimaanvartija
 {
-    public class GameOptions : MonoBehaviour
+    public class hudScript : MonoBehaviour
     {
-        private GameObject hud;
-        void Awake()
+        public GameObject hud;
+        // Start is called before the first frame update
+        void Start()
         {
             hud = GameObject.Find("HUD");
-            hud.SetActive(false);
+            hud.SetActive(true);
         }
 
     }

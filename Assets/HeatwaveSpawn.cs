@@ -8,6 +8,7 @@ namespace kaalimaanvartija
     public class HeatwaveSpawn : MonoBehaviour
     {
         public GameObject heatwave;
+        public int distance;
         private GameObject new_heatwave;
         [SerializeField] private float speed;
         private GameObject Tilemap;
@@ -31,11 +32,11 @@ namespace kaalimaanvartija
             {
 
                 new_heatwave.transform.position += new Vector3(speed, 0, 0);
-                if (new_heatwave.transform.position.x > 0 && new_heatwave.transform.position.x < 1)
+                if (new_heatwave.transform.position.x > 0 && new_heatwave.transform.position.x < 0.5f)
                 {
                     healthbar.value -= 1;
                 }
-                else if (new_heatwave.transform.position.x > 20)
+                else if (new_heatwave.transform.position.x > distance)
                 {
                     Destroy(new_heatwave);
                     destroyed = true;

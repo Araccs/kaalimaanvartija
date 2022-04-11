@@ -698,7 +698,7 @@ GameObject:
   - component: {fileID: 4653935142450472379}
   - component: {fileID: 4653935142450472356}
   - component: {fileID: 4653935142450472357}
-  - component: {fileID: 4653935142450472378}
+  - component: {fileID: 6194476874694987918}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -808,9 +808,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4653935142450472378}
-        m_TargetAssemblyTypeName: kaalimaanvartija.CanvasLoader, Assembly-CSharp
-        m_MethodName: DestroyCanvas
+      - m_Target: {fileID: 6194476874694987918}
+        m_TargetAssemblyTypeName: kaalimaanvartija.GameOptionsScript, Assembly-CSharp
+        m_MethodName: CloseOptions
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -820,7 +820,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &4653935142450472378
+--- !u!114 &6194476874694987918
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -829,7 +829,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4653935142450472359}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebf248700b2c20345b0ae99333c6beb7, type: 3}
+  m_Script: {fileID: 11500000, guid: 930078e294edce54cb3386fdb8248a56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 4653935142595084176}
@@ -948,7 +948,6 @@ GameObject:
   - component: {fileID: 4653935142595084182}
   - component: {fileID: 4653935142595084183}
   - component: {fileID: 4653935142595084203}
-  - component: {fileID: 8770042831171842837}
   m_Layer: 5
   m_Name: GameOptionsCanvas
   m_TagString: Untagged
@@ -1053,18 +1052,6 @@ MonoBehaviour:
   Mixer: {fileID: 24100000, guid: f4b96cfae7a92ee42908b55c8c304ad1, type: 2}
   musicSlider: {fileID: 4653935142457470814}
   FxSlider: {fileID: 4653935141938192193}
---- !u!114 &8770042831171842837
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4653935142595084176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc71e28a423ee348885eef5026e6d1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4653935142680352637
 GameObject:
   m_ObjectHideFlags: 0
