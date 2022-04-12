@@ -14,7 +14,6 @@ namespace kaalimaanvartija
         public static int level3open = Loadgame.l3;
         public static int level4open = Loadgame.l4;
         public static int level5open = Loadgame.l5;
-        public static int level6open = Loadgame.l6;
 
         public GameObject levelComplete;
 
@@ -86,17 +85,6 @@ namespace kaalimaanvartija
                     }
                 }
 
-                if (sceneName == "Level5")
-                {
-                    level6open = 1;
-                    if (once == false)
-                    {
-                        once = true;
-                        Instantiate(levelComplete, new Vector3(0, 0, 0), Quaternion.identity);
-                        SaveGame();
-                    }
-                }
-
             }
         }
 
@@ -106,7 +94,6 @@ namespace kaalimaanvartija
             PlayerPrefs.SetInt("level3", level3open);
             PlayerPrefs.SetInt("level4", level4open);
             PlayerPrefs.SetInt("level5", level5open);
-            PlayerPrefs.SetInt("level6", level6open);
             Debug.Log("Game data saved!");
             
             
