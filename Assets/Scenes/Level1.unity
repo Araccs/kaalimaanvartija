@@ -5526,6 +5526,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8378539541786290215, guid: 44ca43841182ee645923edd0992e6809, type: 3}
+      propertyPath: time
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378539541786290215, guid: 44ca43841182ee645923edd0992e6809, type: 3}
       propertyPath: healthslider
       value: 
       objectReference: {fileID: 1005908935}

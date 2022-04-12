@@ -69,6 +69,18 @@ SpriteAtlas:
   - {fileID: 21300000, guid: e0ff03d07b242f047b076b20475429eb, type: 3}
   - {fileID: 21300000, guid: 8785f7e006bdb18499798734ce138553, type: 3}
   - {fileID: 21300000, guid: 72ba2a118e5f52749a3594662f759246, type: 3}
+  - {fileID: -4512973471228896391, guid: 3226883105d6c194589c5eb72d98772e, type: 3}
+  - {fileID: 4665243729436264647, guid: 3226883105d6c194589c5eb72d98772e, type: 3}
+  - {fileID: -9147562886132023743, guid: 3226883105d6c194589c5eb72d98772e, type: 3}
+  - {fileID: 4067002555366771484, guid: 3226883105d6c194589c5eb72d98772e, type: 3}
+  - {fileID: 5144818240723217214, guid: 3226883105d6c194589c5eb72d98772e, type: 3}
+  - {fileID: -6068267534897271781, guid: 3226883105d6c194589c5eb72d98772e, type: 3}
+  - {fileID: 5442434797885552778, guid: 3226883105d6c194589c5eb72d98772e, type: 3}
+  - {fileID: -8267387880599138457, guid: 3226883105d6c194589c5eb72d98772e, type: 3}
+  - {fileID: 5974539033498516406, guid: 3226883105d6c194589c5eb72d98772e, type: 3}
+  - {fileID: -8595515241619805620, guid: 3226883105d6c194589c5eb72d98772e, type: 3}
+  - {fileID: 3169182822631075954, guid: 3226883105d6c194589c5eb72d98772e, type: 3}
+  - {fileID: 1621439421409884266, guid: 3226883105d6c194589c5eb72d98772e, type: 3}
   - {fileID: 21300000, guid: ebfab461173ed104db2ebb3a0f7fc80f, type: 3}
   - {fileID: 21300000, guid: 87607681652bd004faedd64018c8fee2, type: 3}
   - {fileID: -1443775741069810175, guid: 34439191d8dbcc44382e697d7631d2b4, type: 3}
@@ -95,12 +107,36 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 2de19f1210a978e419fe1058726c66f0, type: 3}
   - {fileID: 21300000, guid: 0e568022c3d4e2a4e97ffe4cd461dcda, type: 3}
   - {fileID: 21300000, guid: f855042265dfe514b84f8b90e4168654, type: 3}
+  - {fileID: -2889851199775792973, guid: 00124c22eae67194aa042b9cdd16ac80, type: 3}
+  - {fileID: 5980596173903509727, guid: 00124c22eae67194aa042b9cdd16ac80, type: 3}
+  - {fileID: 8664584345330999810, guid: 00124c22eae67194aa042b9cdd16ac80, type: 3}
+  - {fileID: -1641762682865853801, guid: 00124c22eae67194aa042b9cdd16ac80, type: 3}
+  - {fileID: -6268026272109098398, guid: 00124c22eae67194aa042b9cdd16ac80, type: 3}
+  - {fileID: -5961695611948996181, guid: 00124c22eae67194aa042b9cdd16ac80, type: 3}
+  - {fileID: 1663778970235465246, guid: 00124c22eae67194aa042b9cdd16ac80, type: 3}
+  - {fileID: 3614798194060567281, guid: 00124c22eae67194aa042b9cdd16ac80, type: 3}
+  - {fileID: -9006017633373361038, guid: 00124c22eae67194aa042b9cdd16ac80, type: 3}
+  - {fileID: -3604248306692699052, guid: 00124c22eae67194aa042b9cdd16ac80, type: 3}
+  - {fileID: 3842162570962670324, guid: 00124c22eae67194aa042b9cdd16ac80, type: 3}
+  - {fileID: 4285757938985630436, guid: 00124c22eae67194aa042b9cdd16ac80, type: 3}
   - {fileID: 21300000, guid: 0a95a6421dbc20c4da1c6079bc1778b0, type: 3}
   - {fileID: 21300000, guid: 126fe7a2d1fbc074bb46ccfba8c64050, type: 3}
   - {fileID: 21300000, guid: f88587b22c6334c49ac8da845d0efe4d, type: 3}
   - {fileID: 21300000, guid: 3e7691e200890b149930a5dc06ebc508, type: 3}
   - {fileID: 21300000, guid: 259be90345402274ea803d6b4c83b9d7, type: 3}
   - {fileID: 21300000, guid: 285dec73a2ee78a4da316ab2cfb9aa1e, type: 3}
+  - {fileID: 476226952008810118, guid: c124e2f389ea64344be501ab6a3cf2d2, type: 3}
+  - {fileID: 6159039142517191869, guid: c124e2f389ea64344be501ab6a3cf2d2, type: 3}
+  - {fileID: 1620967473521409126, guid: c124e2f389ea64344be501ab6a3cf2d2, type: 3}
+  - {fileID: 5398022654397914550, guid: c124e2f389ea64344be501ab6a3cf2d2, type: 3}
+  - {fileID: -3613573802389581961, guid: c124e2f389ea64344be501ab6a3cf2d2, type: 3}
+  - {fileID: -4608419191200616636, guid: c124e2f389ea64344be501ab6a3cf2d2, type: 3}
+  - {fileID: 8103964971951906477, guid: c124e2f389ea64344be501ab6a3cf2d2, type: 3}
+  - {fileID: 9187277265097062727, guid: c124e2f389ea64344be501ab6a3cf2d2, type: 3}
+  - {fileID: 6149893481832779717, guid: c124e2f389ea64344be501ab6a3cf2d2, type: 3}
+  - {fileID: -8937229666505895699, guid: c124e2f389ea64344be501ab6a3cf2d2, type: 3}
+  - {fileID: -648674874860728352, guid: c124e2f389ea64344be501ab6a3cf2d2, type: 3}
+  - {fileID: -4580967613363175828, guid: c124e2f389ea64344be501ab6a3cf2d2, type: 3}
   - {fileID: 21300000, guid: 4b77c4f312690d64cb9e9dda1fb7fd74, type: 3}
   - {fileID: 21300000, guid: 7b8d11848f1dbd246a25d618c1926bf4, type: 3}
   - {fileID: 21300000, guid: 98aedab4cd2d33748938aee92e6acfb3, type: 3}
@@ -113,6 +149,18 @@ SpriteAtlas:
   - {fileID: 21300000, guid: fb59cc35bc4b1224e9e6f27a4076ecdb, type: 3}
   - {fileID: 21300000, guid: 2bb57465bc3dd1248b6a5276cf29e440, type: 3}
   - {fileID: 21300000, guid: dbb90585700e94841ad84e100eda0fec, type: 3}
+  - {fileID: 242062250477735538, guid: dce11295c5800aa429a843554c8c266b, type: 3}
+  - {fileID: 6700710893747530480, guid: dce11295c5800aa429a843554c8c266b, type: 3}
+  - {fileID: 3579090281808208873, guid: dce11295c5800aa429a843554c8c266b, type: 3}
+  - {fileID: 6174408844529121500, guid: dce11295c5800aa429a843554c8c266b, type: 3}
+  - {fileID: 247811173013696125, guid: dce11295c5800aa429a843554c8c266b, type: 3}
+  - {fileID: 1671483107643960313, guid: dce11295c5800aa429a843554c8c266b, type: 3}
+  - {fileID: -2345730412785834693, guid: dce11295c5800aa429a843554c8c266b, type: 3}
+  - {fileID: 1956295014194851941, guid: dce11295c5800aa429a843554c8c266b, type: 3}
+  - {fileID: 1253840178418527699, guid: dce11295c5800aa429a843554c8c266b, type: 3}
+  - {fileID: 7775757123446773087, guid: dce11295c5800aa429a843554c8c266b, type: 3}
+  - {fileID: 3151509428073830158, guid: dce11295c5800aa429a843554c8c266b, type: 3}
+  - {fileID: 1026194884403749879, guid: dce11295c5800aa429a843554c8c266b, type: 3}
   - {fileID: 908695367317944549, guid: ef2dead5d779a524d8077cf6fb392026, type: 3}
   - {fileID: -1368899909649150793, guid: ef2dead5d779a524d8077cf6fb392026, type: 3}
   - {fileID: -2271862466029872859, guid: ef2dead5d779a524d8077cf6fb392026, type: 3}
@@ -196,6 +244,18 @@ SpriteAtlas:
   - Eggplant
   - volumeButton
   - Tomaatti
+  - Tilemap_blue_10
+  - Tilemap_blue_11
+  - Tilemap_blue_9
+  - Tilemap_blue_8
+  - Tilemap_blue_3
+  - Tilemap_blue_2
+  - Tilemap_blue_1
+  - Tilemap_blue_0
+  - Tilemap_blue_7
+  - Tilemap_blue_6
+  - Tilemap_blue_5
+  - Tilemap_blue_4
   - takaproffawalk2
   - sivuwalk2
   - Tilemap_pink_10
@@ -222,12 +282,36 @@ SpriteAtlas:
   - Kaali
   - level_button_empty
   - Nuoli2
+  - Tilemap_orange_10
+  - Tilemap_orange_11
+  - Tilemap_orange_5
+  - Tilemap_orange_4
+  - Tilemap_orange_7
+  - Tilemap_orange_6
+  - Tilemap_orange_1
+  - Tilemap_orange_0
+  - Tilemap_orange_3
+  - Tilemap_orange_2
+  - Tilemap_orange_9
+  - Tilemap_orange_8
   - pulu_flying_03
   - pulu1
   - parsnipV2
   - Ruoho1
   - kukkapenkki_left
   - pulu_idle_01
+  - Tilemap_purple_9
+  - Tilemap_purple_8
+  - Tilemap_purple_1
+  - Tilemap_purple_0
+  - Tilemap_purple_3
+  - Tilemap_purple_2
+  - Tilemap_purple_5
+  - Tilemap_purple_4
+  - Tilemap_purple_7
+  - Tilemap_purple_6
+  - Tilemap_purple_10
+  - Tilemap_purple_11
   - leftarrow
   - Jatkopala_vasen
   - SIBULI
@@ -240,6 +324,18 @@ SpriteAtlas:
   - tile_blue_1
   - Parsnip
   - puhekupla1.1
+  - Tilemap_white_8
+  - Tilemap_white_9
+  - Tilemap_white_4
+  - Tilemap_white_5
+  - Tilemap_white_6
+  - Tilemap_white_7
+  - Tilemap_white_0
+  - Tilemap_white_1
+  - Tilemap_white_2
+  - Tilemap_white_3
+  - Tilemap_white_11
+  - Tilemap_white_10
   - tamperetalo2_2
   - tamperetalo2_3
   - tamperetalo2_0
