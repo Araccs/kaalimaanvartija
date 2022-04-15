@@ -3020,18 +3020,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 881590811100709820, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
       propertyPath: m_text
-      value: Good morning Gardener! I've heard you've done great job with the plants!
+      value: Good morning Gardener! You'll be gardening two of my favourites today,
+        carrots & cucumbers!
       objectReference: {fileID: 0}
     - target: {fileID: 881590811100709820, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
       propertyPath: m_fontSize
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3831925250491266079, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4943316129119256713, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 17.28172
+      objectReference: {fileID: 0}
+    - target: {fileID: 4943316129119256713, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -2.35924
+      objectReference: {fileID: 0}
     - target: {fileID: 7028087834470171798, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
       propertyPath: m_text
-      value: "Today you\u2019ll be gardening some tomatoes and cabbages! Yummy!\r\nThey\u2019re
-        great together, but don\u2019t put them in the same garden box with beetroots
-        or dill!\r\n\r\nEven though tomatoes like warmness, watch out for those heatwaves!\r\n\r\nGood
-        luck!\n"
+      value: 'Carrots grow best in grow best in cool temperatures like those that
+        occur in early spring and late fall.
+
+        
+
+        Carrots and cucumbers
+        will grow quickly with little care. Be sure they receive an inch of water
+        every week.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7028087834470171798, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
+      propertyPath: m_fontSize
+      value: 1.75
       objectReference: {fileID: 0}
     - target: {fileID: 8554934439850971095, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
