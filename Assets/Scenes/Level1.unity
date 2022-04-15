@@ -2826,7 +2826,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8856931788715058511, guid: 19bbb0e07e28c564387f304f3e3896f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3
+      value: 3.44
       objectReference: {fileID: 0}
     - target: {fileID: 8856931788715058511, guid: 19bbb0e07e28c564387f304f3e3896f2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5310,6 +5310,10 @@ PrefabInstance:
       propertyPath: timeodota
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7671569897070881133, guid: 484d93223103cc34fbbb9213c2792304, type: 3}
+      propertyPath: scarecrowAudioDestroy
+      value: 
+      objectReference: {fileID: 8300000, guid: 613c51b31535d454b9f738736a9e62f5, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 484d93223103cc34fbbb9213c2792304, type: 3}
 --- !u!1 &1218529771
@@ -8160,7 +8164,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8856931788715058511, guid: 19bbb0e07e28c564387f304f3e3896f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3
+      value: 2.46
       objectReference: {fileID: 0}
     - target: {fileID: 8856931788715058511, guid: 19bbb0e07e28c564387f304f3e3896f2, type: 3}
       propertyPath: m_LocalPosition.y

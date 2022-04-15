@@ -1675,6 +1675,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8378539541786290215, guid: 44ca43841182ee645923edd0992e6809, type: 3}
+      propertyPath: time
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378539541786290215, guid: 44ca43841182ee645923edd0992e6809, type: 3}
       propertyPath: healthslider
       value: 
       objectReference: {fileID: 1208135316}
@@ -9610,6 +9614,10 @@ PrefabInstance:
       propertyPath: timeodota
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7671569897070881133, guid: 484d93223103cc34fbbb9213c2792304, type: 3}
+      propertyPath: scarecrowAudioDestroy
+      value: 
+      objectReference: {fileID: 8300000, guid: 613c51b31535d454b9f738736a9e62f5, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 484d93223103cc34fbbb9213c2792304, type: 3}
 --- !u!1 &1917104315

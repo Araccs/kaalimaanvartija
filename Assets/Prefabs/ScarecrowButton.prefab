@@ -47,7 +47,6 @@ MonoBehaviour:
   Scarecrow: {fileID: 0}
   time: 0
   timeodota: 0
-  scarecrowAudioSpawn: {fileID: 0}
   scarecrowAudioDestroy: {fileID: 0}
 --- !u!82 &-6213095999463898296
 AudioSource:
@@ -58,7 +57,7 @@ AudioSource:
   m_GameObject: {fileID: 2060459480743782678}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 4203728975915578498, guid: f4b96cfae7a92ee42908b55c8c304ad1, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
