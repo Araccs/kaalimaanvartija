@@ -99,6 +99,20 @@ namespace kaalimaanvartija
             
         }
 
+        // public void resetSave() 
+        // {
+        //     PlayerPrefs.DeleteKey("level2")
+        //     PlayerPrefs.DeleteKey("level3")
+        //     PlayerPrefs.DeleteKey("level4")
+        //     PlayerPrefs.DeleteKey("level5")
+        //     Debug.Log("Game data reseted!");
+
+        //     level2open = 0;
+        //     level3open = 0;
+        //     level4open = 0;
+        //     level5open = 0;
+        // }
+
        
 
     

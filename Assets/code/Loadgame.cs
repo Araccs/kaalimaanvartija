@@ -34,6 +34,12 @@ namespace kaalimaanvartija
             PlayerPrefs.DeleteKey("level4");
             PlayerPrefs.DeleteKey("level5");
             Debug.Log("keys deleted");
+
+            LevelStateChecker.level2open = 0;
+            LevelStateChecker.level3open = 0;
+            LevelStateChecker.level4open = 0;
+            LevelStateChecker.level5open = 0;
+
         }
 
 
