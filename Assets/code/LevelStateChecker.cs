@@ -20,6 +20,7 @@ namespace kaalimaanvartija
         private string sceneName;
         public GameObject timer;
         private bool once = false;
+        private bool gameComplete = false;
 
         private Scene scene;
 
@@ -84,6 +85,21 @@ namespace kaalimaanvartija
                         SaveGame();
                     }
                 }
+
+                if (sceneName == "Level5")
+                {
+                    if (once == false)
+                    {
+                        gameComplete = true;
+                        once = true;
+                        Instantiate(levelComplete, new Vector3(0, 0, 0), Quaternion.identity);
+                        SaveGame();
+                    }
+                }
+
+
+
+
 
             }
         }
