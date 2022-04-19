@@ -104,6 +104,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 0c60d702512f0b446bb09edb4bcecc3b, type: 3}
   - {fileID: 21300000, guid: 2f1f51127fd4b00459dfb2e2c08d202f, type: 3}
   - {fileID: 21300000, guid: 84b181127e0e49c4f847d00cc9fa11e5, type: 3}
+  - {fileID: 21300000, guid: 63aae61228edd51448b6598d9385c44f, type: 3}
   - {fileID: 21300000, guid: 2de19f1210a978e419fe1058726c66f0, type: 3}
   - {fileID: 21300000, guid: 0e568022c3d4e2a4e97ffe4cd461dcda, type: 3}
   - {fileID: 21300000, guid: f855042265dfe514b84f8b90e4168654, type: 3}
@@ -168,9 +169,12 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 4915a2f588fa4bd40aafc972e7bf038f, type: 3}
   - {fileID: 21300000, guid: 336ce3367f82acf489651a7b11c7cba8, type: 3}
   - {fileID: 21300000, guid: eb850f3650ff90341a31ce1d0aaebcda, type: 3}
+  - {fileID: 21300000, guid: 49c22b66075337647ae699f685e8ea3a, type: 3}
   - {fileID: 21300000, guid: efcdf2d65ec8afe488464a7c1b2034f6, type: 3}
   - {fileID: 21300000, guid: 0f06a7f630ae6c54dbbd07f4982681e4, type: 3}
+  - {fileID: 21300000, guid: 321b390794205c5439d5512a1fa1b49f, type: 3}
   - {fileID: 21300000, guid: 0cdfe53729d845f408eb9e9911119b68, type: 3}
+  - {fileID: 21300000, guid: 8ba85747d796e484e9682c87f0fd6e97, type: 3}
   - {fileID: 21300000, guid: 08c8f84783db1554bbe6b18e2606c8c3, type: 3}
   - {fileID: 21300000, guid: fc18a05784102bf40aba29c378c264ae, type: 3}
   - {fileID: 21300000, guid: b6ec4c777b76ce14a9c0d58670cf45d0, type: 3}
@@ -185,6 +189,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: a8f928e8decae104da1e3b37f22d49ba, type: 3}
   - {fileID: 21300000, guid: e373d539c9620854e84102648bc97975, type: 3}
   - {fileID: 21300000, guid: 6d69b06992698a94db0952a8f664403d, type: 3}
+  - {fileID: 21300000, guid: d99c43694be763647ae14cbacfb9ce02, type: 3}
   - {fileID: 21300000, guid: fc304e69d0f839440aeb1991e5299e52, type: 3}
   - {fileID: 21300000, guid: 1266318967063e449ae4f62170728b21, type: 3}
   - {fileID: 21300000, guid: 2bda79899e48051459e581d7e6018374, type: 3}
@@ -279,6 +284,7 @@ SpriteAtlas:
   - logo
   - Lukko
   - puhekuplaV2
+  - pinkpulu_flying_01
   - Kaali
   - level_button_empty
   - Nuoli2
@@ -343,9 +349,12 @@ SpriteAtlas:
   - infobox2
   - kukkapenkki_right_v2
   - "oikeasein\xE4_v2"
+  - pinkpulu_idle_01
   - window
   - cucumber
+  - pinkpulu_flying_01_right
   - Jatkopala
+  - pinkpulu_flying_02_right
   - Onion
   - kukkapenkki_middle
   - Tomatoes
@@ -360,6 +369,7 @@ SpriteAtlas:
   - volumeBG
   - button1_red
   - tile1
+  - pinkpulu_flying_02
   - Kulmapala_vasen
   - "Sein\xE4V2"
   - kukkapenkki_right
