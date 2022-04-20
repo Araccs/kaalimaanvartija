@@ -35,10 +35,10 @@ SpriteAtlas:
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
       serializedVersion: 2
-      padding: 4
+      padding: 8
       blockOffset: 1
       allowAlphaSplitting: 0
-      enableRotation: 1
+      enableRotation: 0
       enableTightPacking: 1
     secondaryTextureSettings: {}
     variantMultiplier: 1
@@ -53,6 +53,7 @@ SpriteAtlas:
   m_PackedSprites:
   - {fileID: 21300000, guid: 9a0aa410ed404b34b8d40c9bf63d80a4, type: 3}
   - {fileID: 21300000, guid: d7519f10bf722e94c9aac49fd6db2f00, type: 3}
+  - {fileID: 21300000, guid: 712edd20abc12094c81d82ec2847956d, type: 3}
   - {fileID: 21300000, guid: 9ddd8e205482a124284a4a0664022173, type: 3}
   - {fileID: 21300000, guid: 36a602406de2db64281291205df78fce, type: 3}
   - {fileID: 21300000, guid: 78b75740f3bc3474c9ef6906095f4023, type: 3}
@@ -121,6 +122,7 @@ SpriteAtlas:
   - {fileID: 3842162570962670324, guid: 00124c22eae67194aa042b9cdd16ac80, type: 3}
   - {fileID: 4285757938985630436, guid: 00124c22eae67194aa042b9cdd16ac80, type: 3}
   - {fileID: 21300000, guid: 0a95a6421dbc20c4da1c6079bc1778b0, type: 3}
+  - {fileID: 21300000, guid: 143bb6a2dd845a744b2a3b55a51e464f, type: 3}
   - {fileID: 21300000, guid: 126fe7a2d1fbc074bb46ccfba8c64050, type: 3}
   - {fileID: 21300000, guid: f88587b22c6334c49ac8da845d0efe4d, type: 3}
   - {fileID: 21300000, guid: 3e7691e200890b149930a5dc06ebc508, type: 3}
@@ -140,6 +142,7 @@ SpriteAtlas:
   - {fileID: -4580967613363175828, guid: c124e2f389ea64344be501ab6a3cf2d2, type: 3}
   - {fileID: 21300000, guid: 4b77c4f312690d64cb9e9dda1fb7fd74, type: 3}
   - {fileID: 21300000, guid: 7b8d11848f1dbd246a25d618c1926bf4, type: 3}
+  - {fileID: 21300000, guid: a1dee0943d1a96a44bd307c95b1f092b, type: 3}
   - {fileID: 21300000, guid: 98aedab4cd2d33748938aee92e6acfb3, type: 3}
   - {fileID: 21300000, guid: 9ad470d4b176e9a4fb98aae1f8356a7b, type: 3}
   - {fileID: 21300000, guid: 714260e447f87e54893da7b0412ef4bd, type: 3}
@@ -173,7 +176,9 @@ SpriteAtlas:
   - {fileID: 21300000, guid: efcdf2d65ec8afe488464a7c1b2034f6, type: 3}
   - {fileID: 21300000, guid: 0f06a7f630ae6c54dbbd07f4982681e4, type: 3}
   - {fileID: 21300000, guid: 321b390794205c5439d5512a1fa1b49f, type: 3}
+  - {fileID: 21300000, guid: c661a9277c2451849a6face88c9715f1, type: 3}
   - {fileID: 21300000, guid: 0cdfe53729d845f408eb9e9911119b68, type: 3}
+  - {fileID: 21300000, guid: 836b763729393dc4a90b12c82263be97, type: 3}
   - {fileID: 21300000, guid: 8ba85747d796e484e9682c87f0fd6e97, type: 3}
   - {fileID: 21300000, guid: 08c8f84783db1554bbe6b18e2606c8c3, type: 3}
   - {fileID: 21300000, guid: fc18a05784102bf40aba29c378c264ae, type: 3}
@@ -201,6 +206,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: cd2c71ba799ba4d41996c694e5426cd8, type: 3}
   - {fileID: 21300000, guid: 2b0a23ea2db0e20489c0a806b796053f, type: 3}
   - {fileID: 21300000, guid: 2e68f60b2badff046bfc8633b10e056c, type: 3}
+  - {fileID: 21300000, guid: f1d2172b8774ecc48b1dccd03e7d5a69, type: 3}
   - {fileID: 21300000, guid: a71aa04b5c4480b42a7651abfc78187d, type: 3}
   - {fileID: 21300000, guid: 4e53177bded5bab45ac5e8a5f295eecf, type: 3}
   - {fileID: 21300000, guid: 3823709b2165f304f8855334386fc5db, type: 3}
@@ -209,6 +215,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 804275ebe0834644a85ec452cd7fe170, type: 3}
   - {fileID: 21300000, guid: f8e0d3fbe5f5f354a8a59b7ca872827a, type: 3}
   - {fileID: 21300000, guid: 1e75a7fbcdb11074a8d16f64de9cbf9a, type: 3}
+  - {fileID: 21300000, guid: f273202c45315bb4186444100611c7e2, type: 3}
   - {fileID: 21300000, guid: 5cad094c1173fbc42a9913829826dbbd, type: 3}
   - {fileID: 21300000, guid: 564c125c29607ea4ba73de4404cf58eb, type: 3}
   - {fileID: 21300000, guid: 063484dc567e43948969a560f9032ea1, type: 3}
@@ -233,6 +240,7 @@ SpriteAtlas:
   m_PackedSpriteNamesToIndex:
   - kukkapenkki_middle_v2
   - "vasensein\xE4_v2"
+  - pulu_flying_03_right
   - kukkapenkki_left
   - sivuprofiili_skaalattu_oikea
   - pormestari
@@ -301,6 +309,7 @@ SpriteAtlas:
   - Tilemap_orange_9
   - Tilemap_orange_8
   - pulu_flying_03
+  - infobox_blue
   - pulu1
   - parsnipV2
   - Ruoho1
@@ -320,6 +329,7 @@ SpriteAtlas:
   - Tilemap_purple_11
   - leftarrow
   - Jatkopala_vasen
+  - bluetile
   - SIBULI
   - Health
   - kastelukannu
@@ -353,7 +363,9 @@ SpriteAtlas:
   - window
   - cucumber
   - pinkpulu_flying_01_right
+  - pulu_flying_04_right
   - Jatkopala
+  - mutantti_pulu2
   - pinkpulu_flying_02_right
   - Onion
   - kukkapenkki_middle
@@ -381,6 +393,7 @@ SpriteAtlas:
   - Health_fill
   - kolike
   - heart
+  - pulu_idle_01
   - Cabbage
   - autotie
   - pulu_flying_01
@@ -389,6 +402,7 @@ SpriteAtlas:
   - Kulmapala_v2
   - parsnipV2 (1)
   - kukkapenkki_middle
+  - mutantti_pulu
   - etuwalk
   - heatwave
   - airconditioner

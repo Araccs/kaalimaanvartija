@@ -52,10 +52,12 @@ SpriteAtlas:
   - {fileID: 21300000, guid: a27b7d80b8f1c1241a123cb5f75c0f0f, type: 3}
   - {fileID: 21300000, guid: 6a9b26e03f618cd44a2946d40a168c75, type: 3}
   - {fileID: 21300000, guid: 3e80ba39f7e4981428ef6453cc0cc386, type: 3}
+  - {fileID: 21300000, guid: 697c187c53e77744a910cc78ec8c3b43, type: 3}
   m_PackedSpriteNamesToIndex:
   - katto_pienempi2
   - fusilliLogo
   - EU logo
+  - pikkukuva2 (1)
   m_RenderDataMap: {}
   m_Tag: New Sprite Atlas
   m_IsVariant: 0
