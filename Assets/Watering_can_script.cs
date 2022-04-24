@@ -13,7 +13,7 @@ namespace kaalimaanvartija
         private GameObject vegetable;
         [SerializeField] private int time;
         [SerializeField] private int healthBoost;
-        private float dist = 1f;
+        [SerializeField] private float dist = 1f;
         private Vector2 distance;
         private GameObject player;
         public Transform[] waterPoints = new Transform[4];

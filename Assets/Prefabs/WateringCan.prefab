@@ -420,6 +420,7 @@ MonoBehaviour:
   healthslider: {fileID: 0}
   time: 1
   healthBoost: 10
+  dist: 1
   waterPoints:
   - {fileID: 8378539542160616077}
   - {fileID: 8378539540990787040}

@@ -10,6 +10,11 @@ namespace kaalimaanvartija
        private int number = 4;
        [SerializeField] private float speed = 1.0f;
 
+        void Awake()
+        {
+            Time.timeScale = 1f;
+        }
+
         void Update()
         {
             transform.position = new Vector3(Mathf.PingPong((Time.time * speed), number),0,0);

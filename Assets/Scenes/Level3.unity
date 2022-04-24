@@ -4381,6 +4381,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8378539541786290215, guid: 44ca43841182ee645923edd0992e6809, type: 3}
+      propertyPath: dist
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378539541786290215, guid: 44ca43841182ee645923edd0992e6809, type: 3}
       propertyPath: healthBoost
       value: 7
       objectReference: {fileID: 0}
@@ -6574,6 +6578,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1834968658}
+    - target: {fileID: 1538431688658625968, guid: 27b3d132e5779ab43be2d0f6ae1af3e4, type: 3}
+      propertyPath: m_text
+      value: Level 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4935780977451243760, guid: 27b3d132e5779ab43be2d0f6ae1af3e4, type: 3}
       propertyPath: m_Name
       value: PlayerHUD
