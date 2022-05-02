@@ -2345,20 +2345,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7028087834470171798, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
       propertyPath: m_text
-      value: 'Carrots grow best in grow best in cool temperatures like those that
-        occur in early spring and late fall.
+      value: 'Carrots grow best in cool temperatures like those that occur in early
+        spring and late fall.
 
 
-
-        Carrots and cucumbers will
-        grow quickly with little care. Be sure they receive an inch of water every
-        week.
+        Carrots and cucumbers will grow quickly with
+        little care. Be sure they receive an inch of water every week.
 
 '
       objectReference: {fileID: 0}
     - target: {fileID: 7028087834470171798, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
       propertyPath: m_fontSize
-      value: 1.75
+      value: 1.65
       objectReference: {fileID: 0}
     - target: {fileID: 8554934439850971095, guid: 87d1cefa555d9c445a65fdc1618a5862, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
